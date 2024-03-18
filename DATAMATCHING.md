@@ -19,19 +19,19 @@
             * Restriction Distance (Feet) - keep
             * Restriction Distance (Miles) - get rid
             * Line Restricted Track Percent - keep
-            * Line total track (miles)
-            * System-wide Restricted Track Percent
-            * System-wide Total Track (miles)
-            * SR Restriction Distance Span 
-            * Restriction Path
-            * Restrictions Dats active on calendar
-            * Restriction days to clear
-            * Daily Restriction count start
-            * Month Restriction Count Start
-            * Restriction count new
-            * restriction count cleared
-            * Month restriction count end
-            * Daily restriction count end
+            * Line total track (miles) - get rid
+            * System-wide Restricted Track Percent - keep
+            * System-wide Total Track (miles) - get rid
+            * SR Restriction Distance Span  - keep
+            * Restriction Path - keep
+            * Restrictions Dats active on calendar - keep
+            * Restriction days to clear - keep
+            * Daily Restriction count start - keep
+            * Month Restriction Count Start - keep
+            * Restriction count new - keep
+            * restriction count cleared - keep
+            * Month restriction count end - keep
+            * Daily restriction count end - keep
     2. Gated Station Entries (GSE)
         - Attributes:
             * Service date
