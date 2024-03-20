@@ -32,6 +32,34 @@
             * restriction count cleared - keep
             * Month restriction count end - keep
             * Daily restriction count end - keep
+    1a. Speed Restrictions Compressed Attributes:
+        - Restriction ID
+        - Restriction Status ('Active Restriction' or 'Restriction Cleared')
+        - Restriction Reason
+        - Start Date (min Calendar Date, group by ID)
+        - End Date (max Calendar Date, group by ID)
+        - Track Direction
+        - Track Branch
+        - Line
+        - Track Name
+        - Location Type
+        - Restriction Speed
+        - Restriction Distance
+        - Line Restricted Track Percent
+        - Systemwide Restricted Track Percent
+        - SR Restriciton Distance Span
+        - Restriction Path
+        - Total Restricted Days (max Restriction_Days_Active_On_Calendar_Day, group by ID, if restriction active) (max Restriction_days_to_clear, group by id, if restriction cleared)
+    1b. Aggregate Statistics for Speed Restrictions, Monthly:
+        - Month
+        - Beginning of Month Active Restrictions (sum Month_Restriction_Count_Start, group by month)
+        - Restrictions Opened During Month (sum Restriction_count_new, group by month)
+        - Restrictions Cleared During Month (sum restriction_count_cleared, group by month)
+        - End of Month Active Restrictions (sum Month_Restriction_Count_end, group by month)
+    1c. Aggregate Statistics for Speed Restrictions, Daily:
+        - Date
+        - Beginning of Day Active Restrictions (sum Daily_Restriction_Count_start, group by date)
+        - End of Day Active Restrictions (sum Daily_restriction_count_end, group by date)
     2. Gated Station Entries (GSE)
         - Attributes:
             * Service date
