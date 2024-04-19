@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>MBTA Slow-zones and COVID-19 Impact Analysis</title>
-    <link rel="stylesheet" href="./style.css">
+    <link href="./style.css" rel="stylesheet" />
     <link rel="icon" href="./favicon.ico" type="image/x-icon">
     <!-- header from 10 year ridership visualization -->
     <style>
@@ -147,27 +147,10 @@
         <p>
             For our project, we used data collected from the MBTA's Open Data Portal [https://mbta-massdot.opendata.arcgis.com/]. This tool allows for the dissemination of transit data to the public, organized by type and usage. The two data sources that we used for our project were MBTA Gated Station Entries - Historical and MBTA Rapid Transit Speed Restrictions by Day.
         </p>
+        <h4>Gated Station Entries</h4>
         <p>
             The gated station entries data contains counts of the number of entries to each MBTA station for each 30-minute period since 2014. Each CSV (a year's worth of data) contains a service date, a time period, a stop id, a station name, a route/line, and the number of station entries. Each CSV has just over a million observations. The data dictionary provided by the MBTA is included below. 
         </p>
-
-        <style>
-            table {
-                border-collapse: collapse;
-                width: 100%;
-            }
-        
-            th, td {
-                border: 1px solid #dddddd;
-                text-align: left;
-                padding: 8px;
-                margin: 5px; /* Adjust this margin as needed */
-            }
-        
-            tr:nth-child(even) {
-                background-color: #f2f2f2;
-            }
-        </style>
 
         <table>
             <tr>
@@ -199,7 +182,7 @@
                 <td>Property of "Gated Station Entries". Unscaled station entries for gated heavy rail and light rail stations for date and 30-minute increment.</td>
             </tr>
         </table>
-
+        <h4>Speed Restrictions</h4>
         <p>
             The speed restrictions data contains an entry for all active restrictions for each day of 2023. This data set has 31 different columns for each observation, including date, restriction ID, and restriction status, among others. The data is broken into 12 different CSVs – one for each month – with some having as many as 10,000 observations. A data dictionary highlighting the most important features is provided below. The full data dictionary can be found <a href="https://mbta-massdot.opendata.arcgis.com/datasets/d73ed67e4cc84a84b818ea2c5caef696/about">here</a>.
         </p>
@@ -674,7 +657,7 @@
             Our analysis could lead the MBTA to proceed in a couple of different ways. First, they should likely prioritize changing the public's overall perception of the MBTA today. As mentioned previously, we concluded that the MBTA is likely seeing these drops in ridership in part because people don't trust the trains to get them to and from work safely. As the MBTA continues to clear speed restrictions (which they were trending positively for, as seen in our 2nd visualization), they should promote these and emphasize to the public that the percieved issues are not as bad as they may seen. Additionally, if our second hypothesis is correct, the MBTA should prioritize servicing the Blue Line over the Red Line, since those riders more desperately rely on the trains for their daily commutes. If speed restrictions or service changes are needed on this line, the MBTA should try to clear them as fast as possible due to the demographic identity of the region. Overall, using this analysis as a general framework, the MBTA should pursue future research into the areas that we have identified to determine the best approach to take moving forwards. While the situation does not look great right now, we sincerely hope that, with careful attention to the communities they serve, the MBTA will successfully be able to recover to their pre-COVID prominence and remain a major part of the greater-Boston area infrastructure. 
         </p>
         <p>
-            If you have any further questions or ideas on how to continue this research, please feel free to reach out to us, as we would love to talk more about this topic. Thanks!
+            If you have any further questions or ideas on how to continue this research, please feel free to reach out to us, as we would love to talk more about this topic. Thank you!
             <br>
                 Timothy Clay (clay.t@northeastern.edu)
             <br>
