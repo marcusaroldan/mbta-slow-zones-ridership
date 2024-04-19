@@ -60,9 +60,6 @@
         
     
                     <style>
-                        .foliumtooltip {
-                            
-                        }
                        .foliumtooltip table{
                             margin: auto;
                         }
@@ -92,9 +89,6 @@
             
     
                     <style>
-                        .foliumtooltip {
-                            
-                        }
                        .foliumtooltip table{
                             margin: auto;
                         }
@@ -138,11 +132,225 @@
 <body>
     <main>
         <h1>Impact Analysis of Slow-zones and COVID-19 on MBTA Ridership</h1>
-        <p>talk about the motivations, goals of the analysis, pretty much from the slides</p>
+        <h2>Our Project</h2>
+        <p>
+            The Massachusetts Bay Transit Authority (MBTA) is, for better or for worse, one of the most well-known public transit systems in the world today. Founded in 1964, the agency has long been a key piece of Boston’s infrastructure, connecting the greater metropolitan area with the city center and serving over 1 million daily riders. The system is composed of several forms of transportation, including subway and commuter rail lines, bus routes, and ferry routes, which many rely on to commute to and from work. The subway system alone sees over 250,000 daily riders, but this number is far from the system's peak of over 500,000, which happened only 10 years ago. While the MBTA still plays a vital role in the transportation plans of many, the system has become one of the country’s most controversial in recent years, leading to this steep decrease in ridership. 
+        </p>
+        <p>
+            The first reason for this sudden drop in ridership is somewhat obvious: the COVID-19 pandemic. During 2020, ridership numbers plummeted as many people stopped their daily commutes in favor of working from home. However, this does not tell the whole story, as other public transit systems, such as New York’s MTA, have seen their ridership numbers almost entirely recover from the pandemic. The real reason why the MBTA is still struggling today compared to their pre-2020 numbers has to do with the agencies seeing a sharp increase in service issues, ranging from minor service delays to train cars literally catching on fire. For a post-COVID Boston commuter, the MBTA’s constant service delays, service cancellations, and speed restrictions make it nearly impossible to rely on the MBTA to consistently get you to work on time. 
+        </p>
+        <p>
+            In this project, we will be taking a closer look at how both the COVID-19 pandemic and the system’s widespread speed restriction issues have affected ridership totals in recent years. In doing so, we hope to pick up on any underlying trends that may further explain this phenomenon. For instance, are all stations being affected by these issues equally, or is it a line- or station-specific issue? Are things at all looking up for the MBTA, or is there still work that needs to be done on their part? Ultimately, we hope to more thoroughly diagnose the MBTA’s current issues and potentially provide direction on how the MBTA may be able to improve the system as a whole in order to return it to its pre-COVID glory. 
+        </p>
         <h2>Data Introduction</h2>
-        <p>talk about the dataset, pretty much what is on the slides</p>
-        <h2>MBTA ridership over the last 10 years:</h2>
-        <p></p>
+        <h3>Data Source</h3>
+        <p>
+            For our project, we used data collected from the MBTA's Open Data Portal [https://mbta-massdot.opendata.arcgis.com/]. This tool allows for the dissemination of transit data to the public, organized by type and usage. The two data sources that we used for our project were MBTA Gated Station Entries - Historical and MBTA Rapid Transit Speed Restrictions by Day.
+        </p>
+        <p>
+            The gated station entries data contains counts of the number of entries to each MBTA station for each 30-minute period since 2014. Each CSV (a year's worth of data) contains a service date, a time period, a stop id, a station name, a route/line, and the number of station entries. Each CSV has just over a million observations. The data dictionary provided by the MBTA is included below. 
+        </p>
+
+        <style>
+            table {
+                border-collapse: collapse;
+                width: 100%;
+            }
+        
+            th, td {
+                border: 1px solid #dddddd;
+                text-align: left;
+                padding: 8px;
+                margin: 5px; /* Adjust this margin as needed */
+            }
+        
+            tr:nth-child(even) {
+                background-color: #f2f2f2;
+            }
+        </style>
+
+        <table>
+            <tr>
+                <th>Name</th>
+                <th>Description</th>
+            </tr>
+            <tr>
+                <td>service_date</td>
+                <td>The service date of the gated station entries. Times that are within the service date, but after midnight, are listed as ocurring on the previous calendar date, e.g. entries between 12:00:00AM - 12:30:00AM on Jan 2, 2020 is listed as '2020/01/01 12:00 AM'.</td>
+            </tr>
+            <tr>
+                <td>time_period</td>
+                <td>The start time of the 30-minute time period, in 24-hour time. Periods starting after 11:59 PM are represented as 00:00 plus their 24-hour time. For example, 1:30:00AM - 1:59:59AM is listed as '01:30:00'.</td>
+            </tr>
+            <tr>
+                <td>stop_id</td>
+                <td>GTFS-compatible stop for which gated station entries should be returned; usually provided as the parent station id.</td>
+            </tr>
+            <tr>
+                <td>station_name</td>
+                <td>GTFS-compatible station for which gated station entries should be returned.</td>
+            </tr>
+            <tr>
+                <td>route_or_line</td>
+                <td>Description of the route or service provided.</td>
+            </tr>
+            <tr>
+                <td>gated_entries</td>
+                <td>Property of "Gated Station Entries". Unscaled station entries for gated heavy rail and light rail stations for date and 30-minute increment.</td>
+            </tr>
+        </table>
+
+        <p>
+            The speed restrictions data contains an entry for all active restrictions for each day of 2023. This data set has 31 different columns for each observation, including date, restriction ID, and restriction status, among others. The data is broken into 12 different CSVs – one for each month – with some having as many as 10,000 observations. A data dictionary highlighting the most important features is provided below. The full data dictionary can be found <a href="https://mbta-massdot.opendata.arcgis.com/datasets/d73ed67e4cc84a84b818ea2c5caef696/about">here</a>.
+        </p>
+
+        <table>
+            <tr>
+                <th>Name</th>
+                <th>Description</th>
+            </tr>
+            <tr>
+                <td>Calendar_Date</td>
+                <td>Date to which the row's information pertains. There is one row per day each restriction has been active since Jan 1, 2023.</td>
+            </tr>
+            <tr>
+                <td>ID</td>
+                <td>Unique identifier for the speed restriction</td>
+            </tr>
+            <tr>
+                <td>Track_Direction</td>
+                <td>Which track the restriction affects, i.e. Northbound</td>
+            </tr>
+            <tr>
+                <td>Line</td>
+                <td>MBTA Rapid Transit Line</td>
+            </tr>
+            <tr>
+                <td>Branch</td>
+                <td>MBTA Rapid Transit Branch</td>
+            </tr>
+            <tr>
+                <td>Track_Name</td>
+                <td>Description of track section</td>
+            </tr>
+            <tr>
+                <td>Location_Description</td>
+                <td>Location of speed restriction</td>
+            </tr>
+            <tr>
+                <td>Loc_GTFS_Stop_ID</td>
+                <td>GTFS-compatible stop_id for restrictions at stations or pipe-separated stop_id’s for restrictions between stations</td>
+            </tr>
+            <tr>
+                <td>Location_Type</td>
+                <td>Where the restriction is (Station or Between Stations)</td>
+            </tr>
+            <tr>
+                <td>Direction_Sort</td>
+                <td>Short code specifying the line, track direction, and section of track</td>
+            </tr>
+            <tr>
+                <td>Restriction_Status</td>
+                <td>Can take values ‘Active Restriction’, ‘Restriction Cleared’, or ‘Restriction Opened’. A restriction will be listed as Active for all dates between when it is opened and cleared.</td>
+            </tr>
+            <tr>
+                <td>Date_Restriction_Reported</td>
+                <td>Date on which restriction was initially reported</td>
+            </tr>
+            <tr>
+                <td>Date_Restriction_Cleared</td>
+                <td>Date on which restriction was cleared, if applicable.</td>
+            </tr>
+            <tr>
+                <td>Restriction_Speed_MPH</td>
+                <td>Maximum speed on track section</td>
+            </tr>
+            <tr>
+                <td>Restriction_Reason</td>
+                <td>Reason for speed restriction; see below table</td>
+            </tr>
+            <tr>
+                <td>Restriction_Distance_Feet</td>
+                <td>Length of speed-restricted track, in feet</td>
+            </tr>
+            <tr>
+                <td>Restriction_Distance_Miles</td>
+                <td>Length of speed-restricted track, in miles</td>
+            </tr>
+            <tr>
+                <td>Line_Restricted_Track_Pct</td>
+                <td>Restriction_Distance_Miles/Line_Total_Track_Miles</td>
+            </tr>
+            <tr>
+                <td>Line_Total_Track_Miles</td>
+                <td>Length of track indicated in Track_Name</td>
+            </tr>
+            <tr>
+                <td>Systemwide_Restricted_Track_Pct</td>
+                <td>Restriction_Distance_Miles/Systemwide_Total_Track_Miles</td>
+            </tr>
+            <tr>
+                <td>Systemwide_Total_Track_Miles</td>
+                <td>Total length of track across all lines</td>
+            </tr>
+            <tr>
+                <td>SR_Restriction_Distance_Span</td>
+                <td>Single Segment or Multi-Segment restriction. Multi-Segment restrictions will have multiple rows each day, one for each Loc_GTFS_Stop_ID value. </td>
+            </tr>
+            <tr>
+                <td>Restriction_Path</td>
+                <td>Start | End if the restriction is a Single Segment; otherwise specifies position within a Multi-Segment restriction (Start, Middle, or End)</td>
+            </tr>
+            <tr>
+                <td>Restriction_Days_Active_On_Calendar_Day</td>
+                <td>Number of days restriction has been active, for currently open restrictions. As of the row’s Calendar_Day. </td>
+            </tr>
+            <tr>
+                <td>Restriction_Days_to_Clear</td>
+                <td>Number of days between restriction opening and clearing date, if applicable. </td>
+            </tr>
+            <tr>
+                <td>Daily_Restriction_Count_Start</td>
+                <td>1 for active restrictions that carried over from the previous day, 0 otherwise. Can be summed within the day to provide the number of active restrictions at the beginning of the report day.</td>
+            </tr>
+            <tr>
+                <td>Month_Restriction_Count_Start</td>
+                <td>1 for active restrictions that carried over from the previous month, 0 otherwise. Can be summed within the month to provide the number of active restrictions at the beginning of the month. (Should only contain nonzero values on the 1st of each month.)</td>
+            </tr>
+            <tr>
+                <td>Restriction_Count_New</td>
+                <td>1 for a restriction opened during the month, 0 otherwise. Can be summed to provide the number of restrictions opened during the report month.</td>
+            </tr>
+            <tr>
+                <td>Restriction_Count_Cleared</td>
+                <td>-1 for a restriction cleared during the month, 0 otherwise. Can be summed to find the number of restrictions cleared during the report month.</td>
+            </tr>
+            <tr>
+                <td>Month_Restriction_Count_End</td>
+                <td>1 for a restriction active at the end of the month, 0 otherwise. Can be summed to find the number of restrictions active at the end of the report month. (Should only contain nonzero values on the last day of each month.)</td>
+            </tr>
+            <tr>
+                <td>Daily_Restriction_Count_End</td>
+                <td>1 for a restriction active at the end of the day, 0 otherwise. Can be summed within the day to find the number of restrictions active at the end of the report day.</td>
+            </tr>
+        </table>
+
+        <h3>Data Processing</h3>
+        <p>
+            Marcus talk about how data was combined
+        </p>
+        <h3>Final Data</h3>
+        <p>
+            Marcus talk about what the final “raw” data looks like
+        </p>
+        <h2>Analysis</h2>
+        <p>
+            To answer our problem, we made and interpreted 5 helpful visuals. Each of these visualizations explores a new aspect of the data, discovering hidden trends along the way. In this section, we will showcase these visualizations and discuss any trends that we found to be important for our conclusion. 
+        </p>
+        <h3>MBTA ridership over the last 10 years:</h3>
+        <p>
+            Our first visualization is a combined scatter and line plot that explores the raw gated station entries data by showing the system's total ridership numbers over the past 10 years. The plot itself is also interactive, allowing for the trends of specific stations to be viewed via a drop-down at the bottom. This drop-down has an option for every station that there is data for (no above-ground stations, like Northeastern), as well as an "All" option that combines all these totals. The plot itself includes three colored lines, which correspond to three different time periods of ridership. The red line (which is always on top) shows a station's average ridership across the entire day. The blue line indicates morning traffic, which is the station's average ridership across the hours of 6-10 AM. Finally, the yellow line indicates the afternoon/evening traffic, which is the station's average ridership across the hours of 3-7 PM. By looking at the relationship between the blue and yellow lines for a particular station, you can easily determine whether riders use that station to go to work or to leave from it. Wonderland, for instance, is more frequently used by commuters in the morning as a way to get to work, while Government Center is the opposite, with more commuters using it as a way to get home.  
+        </p>
         <div id="vis"></div>
         <script>
             (function (vegaEmbed) {
@@ -163,18 +371,316 @@
             })(vegaEmbed);
 
         </script>
-        <h2>2023: The Rise of the Slow-zones...</h2>
-        <p>put the active vs closed in 2023 here</p>
-        <h2>How extensive was the problem?</h2>
+        <p>
+            There are a few key points that we took away from this graph. First, it is very obvious across all stations when the pandemic occurred, with a sharp decline in ridership happening for 2020 and 2021. Furthermore, the system as a whole has yet to fully recover, as we mentioned in our project introduction. Today, only about half of the pre-COVID afternoon/evening commuters are still using the MBTA on their way home, and even fewer morning commuters are using the train. However, certain stations have certainly recovered better than others. Airport, for instance, is already basically back to its pre-COVID numbers, while Harvard has less than half of its pre-COVID riders. This would suggest that differences -- prehaps geographic or demographic -- between these stations has contributed to their varied ridership recovery rates. 
+        </p>
+        <h3>2023: The Rise of the Slow-Zones...</h3>
+        <p>
+            Our second visualization is a stacked area plot that explores the speed restrictions data set. The height of the combined bars represents the total number of speed restrictions that have been opened in 2023 before or on that date. For example, by the end of 2023, almost 700 total speed restrictions had been opened over the course of the year. The height of the yellow area is the number of active restrictions on a given day, while the height of the blue bar is the number of closed restrictions. For example, there were just under 200 active restrictions remaining by the end of 2023, while there were over 500 that had been closed by then. 
+        </p>
+        <div id = "areaplot"></div>
+        <script src='https://d3js.org/d3.v7.min.js'></script>
+        <script>
+            const daily = d3.csv("daily_counts.csv");
+
+            // Once the data is loaded, proceed with plotting
+            daily.then(function(data) {
+                // Convert string values to numbers
+                data.forEach(function(d) {
+                    d.index = new Date(d.index);;
+                    d.active = +d.active;
+                    d.net_closed = +d.net_closed
+                });
+
+                // Set up SVG dimensions
+                var margin = {top: 60, right: 150, bottom: 60, left: 70},
+                    width = 1000 - margin.left - margin.right,
+                    height = 500 - margin.top - margin.bottom;
+
+                // Create SVG container
+                var svg = d3.select("#areaplot").append("svg")
+                    .attr("width", width + margin.left + margin.right)
+                    .attr("height", height + margin.top + margin.bottom)
+                .append("g")
+                    .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
+
+                // Define color scales
+                var colorScale = d3.scaleOrdinal()
+                    .domain(["active", "net_closed"])
+                    .range(["#FFC20A", "#0C7BDC"]);
+
+                // Define x and y scales
+                var x = d3.scaleTime()
+                    .domain(d3.extent(data, function(d) { return d.index; }))
+                    .range([0, width]);
+
+                var y = d3.scaleLinear()
+                    .domain([0, 700]) // Adjust the domain for stacked area
+                    .range([height, 0]);
+
+                // Define area generators for both variables
+                var areaCount = d3.area()
+                    .x(function(d) { return x(d.index); })
+                    .y0(height)
+                    .y1(function(d) { return y(d.active); });
+
+                var areaCleared = d3.area()
+                    .x(function(d) { return x(d.index); })
+                    .y0(function(d) { return y(d.active); }) // Stack on top of 'count'
+                    .y1(function(d) { return y(d.active + d.net_closed); });
+
+                // Append areas for 'count' and 'cleared'
+                svg.append("path")
+                    .datum(data)
+                    .attr("class", "area")
+                    .style("fill", colorScale("active"))
+                    .attr("d", areaCount);
+
+                svg.append("path")
+                    .datum(data)
+                    .attr("class", "area")
+                    .style("fill", colorScale("net_closed"))
+                    .attr("d", areaCleared);
+
+
+                // Add y axis
+                svg.append("g")
+                    .call(d3.axisLeft(y));
+
+                // Style and customize as needed
+
+                // Add legend title
+                svg.append("text")
+                    .attr("x", width + 10)
+                    .attr("y", -5)
+                    .attr("text-anchor", "start")
+                    .style("font", "12px sans-serif")
+                    .text("Restriction Type");
+
+                // Add legend
+                var legend = svg.selectAll(".legend")
+                .data(["Active", "Closed"]) // Updated legend labels
+                .enter().append("g")
+                .attr("class", "legend")
+                .attr("transform", function(d, i) { return "translate(" + (width + 10) + "," + (i * 20 + 10) + ")"; });
+
+                legend.append("rect")
+                    .attr("x", 0)
+                    .attr("width", 18)
+                    .attr("height", 18)
+                    .style("fill", colorScale);
+
+                legend.append("text")
+                    .attr("x", 22)
+                    .attr("y", 9)
+                    .attr("dy", ".35em")
+                    .style("text-anchor", "start")
+                    .style("font", "10px sans-serif") // Set font size and family
+                    .text(function(d) { return d; }); // Display legend label based on data
+
+                svg.append("text")
+                    .attr("transform", "translate(" + (width / 2) + " ," + (height + 40) + ")") // Position the label at the bottom center
+                    .style("text-anchor", "middle")
+                    .style("font", "12px sans-serif")
+                    .text("Month", );
+
+                svg.append("text")
+                    .attr("transform", "translate(" + 0 + " ," + (-25) + ")")
+                    .style("text-anchor", "left")
+                    .style("font", "18px sans-serif")
+                    .text("Active and Closed Restrictions Throughout 2023", );
+
+                svg.append("text")
+                    .attr("transform", "rotate(-90)")
+                    .attr("y", 20 - margin.left)
+                    .attr("x", 0 - (height / 2))
+                    .attr("dy", "1em")
+                    .style("text-anchor", "middle")
+                    .style("font", "12px sans-serif")
+                    .text("Total Speed Restrictions Count");
+
+                
+
+                // Add gridlines for y-axis
+                svg.append("g")
+                    .attr("class", "grid")
+                    .call(d3.axisLeft(y)
+                        .tickSize(-width)
+                        .tickValues(d3.range(0, 750, 100)) // Set tick values to intervals of 100 up to maxYAdjusted
+                        .tickFormat(""))
+                    .selectAll("line")
+                    .style("stroke", "#ccc"); 
+
+                    // Add x axis
+                svg.append("g")
+                .attr("transform", "translate(0," + height + ")")
+                .call(d3.axisBottom(x)
+                    .tickFormat(d3.timeFormat("%B"))); // Customize tick labels to display month names
+
+                // Add y axis
+                svg.append("g")
+                    .call(d3.axisLeft(y));
+
+            
+            });
+
+        </script>
+        <p>
+            This plot helped us have an understanding on the prevalence of speed restrictions over the course of the year. One thing that jumped out to us at first was the steep jump in active restrictions that happened in March, going from about 100 active restrictions to over 300 in a matter of a few weeks. After doing some research, we found that this was the case after a <a href="https://cdn.mbta.com/sites/default/files/2023-03/20230310_qco_dpu_priority-1-conditions.pdf">Red Line inspection</a> by the Department of Public Utilities determined that the track required these restrictions as a precaution. Besides that one aberration, we observed that the MBTA did a good job with maintaining a fairly steady number of 300-ish active restrictions throughout the rest of the year, and even dipping down to below 200 by the year's end. This visualization suggests that, over the course of 2023, speed restrictions were a fairly common issue across the system, so riders likely became very familiar with the service patterns of the agency. 
+        </p>
+
+        <!-- would it be possible to add a link back to the main site from this page? -->
+        <h3>How extensive was the problem?</h3>
+        <p>Paragraph on how to interpret this visualization</p>
         <div class="folium-map" id="map_7bbf7e1364f5b510540d299abb5e8fe2" ></div>
         <a href="https://marcusaroldan.github.io/mbta-slow-zones-website/speed_restrictions_mapping_interactive.html">Click here for the interactive map of all speed restrictions in Boston during 2023!</a>
-        <h2>Lines of the T: Winners and Losers</h2>
-        <h2>Slow-zones: unavoidable commute nightmares...</h2>
+        <p>Paragraph on takeaways of this visualization</p>
+        <h3>Lines of the T: Winners and Losers</h3>
+        <p>
+            Our fourth visualization is a horizontal bar chart that shows the decrease in station entries for each station from their pre-COVID totals to their 2023 numbers. In other words, a longer bar means that that station has seen a smaller percentage of their riders return after COVID than a shorter line. For example, Lechmere, which has the longest bar, has lost almost 70% of it's pre-COVID riders, compared to Airport, which is only at about a 5% decrease. For this chart, we measured each difference using average ridership instead of total ridership. This accounted for any stations that underwent closures in 2023, and allowed us to directly compare one year (2023) with several (2016-2019). Each bar is also colored by the line color that the station is on, in order to detect trends across lines, as well as across stations. 
+        </p>
+        <div id = "barchart"></div>
+        <script src='https://d3js.org/d3.v7.min.js'></script>
+        <script>
+            //Define data
+            const trains = d3.csv("pct_diff.csv");
+
+            trains.then(function(data) {
+            // Convert string values to numbers
+
+            
+            data.forEach(function(d) {
+                d.pct_diff = +d.pct_diff * -1;
+            });
+            data.sort((a, b) => b.pct_diff - a.pct_diff);
+
+            // Set up dimensions for the chart
+            var margin = {top: 60, right: 30, bottom: 50, left: 150},
+            width = 800 - margin.left - margin.right,
+            height = 900 - margin.top - margin.bottom;
+
+            // Append SVG to the body
+            var svg = d3.select("#barchart").append("svg")
+            .attr("width", width + margin.left + margin.right)
+            .attr("height", height + margin.top + margin.bottom)
+            .append("g")
+            .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
+
+            // Sort data based on pct_diff
+            data.sort(function(a, b) { return a.pct_diff - b.pct_diff; });
+
+            // Define scales
+            var x = d3.scaleLinear()
+            .domain([0, d3.max(data, function(d) { return d.pct_diff; })])
+            .range([0, width]);
+
+            var y = d3.scaleBand()
+            .domain(data.map(function(d) { return d.station_name; }))
+            .range([0, height])
+            .padding(0.1);
+
+            var color = d3.scaleOrdinal()
+                .domain(["Blue Line", "Green Line", "Orange Line", "Red Line"])
+                .range(["#003DA5", "#00843D", "#ED8B00", "#DA291C"]);
+
+
+            // Add bars
+            svg.selectAll(".bar")
+            .data(data)
+            .enter().append("rect")
+            .attr("class", "bar")
+            .attr("x", function(d) { return Math.min(x(0), x(d.pct_diff)); })
+            .attr("y", function(d) { return y(d.station_name); })
+            .attr("width", function(d) { return Math.abs(x(d.pct_diff) - x(0)); })
+            .attr("height", y.bandwidth())
+            .style("fill", function(d) { return color(d.route_or_line); });
+
+            
+
+            // Add x-axis
+            svg.append("g")
+            .attr("class", "x axis")
+            .attr("transform", "translate(0," + height + ")")
+            .call(d3.axisBottom(x));
+
+            // Add y-axis
+            svg.append("g")
+            .attr("class", "y axis")
+            .call(d3.axisLeft(y));
+
+            // Add labels
+            svg.append("text")
+            .attr("class", "x label")
+            .attr("text-anchor", "middle")
+            .style('font-family', 'sans-serif')
+            .attr("x", width/2)
+            .attr("y", height + 40)
+            .style("font", "15px sans-serif") 
+            .text("Percentage Decrease");
+
+            svg.append("text")
+                .attr("transform", "translate(" + -140 + " ," + -20 + ")")
+                .style("text-anchor", "left")
+                .style("font", "18px sans-serif")
+                .text("Percentage Decrease in Average Ridership from Pre-COVID to 2023 Colored by Line", );
+
+
+            // Add legend title
+            svg.append("text")
+            .attr("x", width - 100)
+            .attr("y", +32)
+            .attr("text-anchor", "start")
+            .style("font", "13px sans-serif")
+            .text("MBTA Line");
+
+            // Add legend
+            var legend = svg.selectAll(".legend")
+            .data(["Blue", "Green", "Orange", "Red"]) // Updated legend labels
+            .enter().append("g")
+            .attr("class", "legend")
+            .attr("transform", function(d, i) { return "translate(" + (width - 100) + "," + (i * 20 + 40) + ")"; });
+
+
+            legend.append("rect")
+            .attr("x", 0)
+            .attr("width", 18)
+            .attr("height", 18)
+            .style("fill", color);
+
+            legend.append("text")
+            .attr("x", 22)
+            .attr("y", 9)
+            .attr("dy", ".35em")
+            .style("text-anchor", "start")
+            .style("font", "12px sans-serif") // Set font size and family
+            .text(function(d) { return d; }); // Display legend label based on data
+
+
+            });
+        </script>
+        <p>
+            Our main takeaways from this graph have to do with the grouping of stations along the same line. For instance, the top 7 lines and 9 of the top 11 in terms of least decreased ridership are all Blue Line stations. On the other hand, with the exception of Lechmere, 9 of the 10 stations with the greatest decreases in ridership are on the Red Line. These results generally corroborate our findings from previous visualizations. In visualization 1, we observed that different stations have all rebounded from COVID differently, which is supported with this visualization. Originally, we had hypothesized that geographic or demographic diversity may play a role in ridership differences, which is supported here, with the trends you see among Blue and Red Line riders. Additionally, we learned from the second visualization that a significant number of speed restrictions were opened in March due to issues with the Red Line. In this visualzation, we see that Red Line riders are the least likely to have returned to the MBTA after COVID, which may suggest that there is a correlation between amount of restrictions and number of riders. 
+        </p>
+        <h3>Slow-zones: unavoidable commute nightmares...</h3>
         <p>Put the individual speed restriction visualization here</p>
         <h2>So what?</h2>
-        <p>conclustions go here</p>
+        <p>
+            Overall, our visualizations were extremely helpful in beginning to understand what is truly going on with the MBTA today. As the visualizations showed, the MBTA is clearly struggling with ridership following the COVID-19 pandemic, but it appears that the speed restrictions may not be a root cause of the issues. We think that this might be the case for a couple of reasons. First, compared to other service changes, like delays or cancellations, speed restrictions are by far the least noticeable. In other words, you often times don't realize that there is a speed restriction in place until you're already on the train, at which point it's too late to choose another transportation option. For this reason, speed restrictions would be far less likely to drive someone away from using the MBTA than any other change in service. Additionally, though speed restrictions are definitely driving away passengers, we believe that the sheer amount of speed restrictions is more of a deterrent than any individual restriction. This is because the number of speed restrictions on any line reflects that line's maintenance quality and overall safety. If a line has a large number of speed restrictions, people may not want to use it to get to work because they worry about whether they are safe to ride the trains. For these reasons, we feel comfortable concluding that, while the increase in speed restrictions and the decrease and ridership numbers are definitely correlated, there is not a causal relationship between the two. 
+        </p>
+        <p>
+            Over the course of the project, we also picked up on several secondary trends. First, the difference in ridership recovery rates between Red Line and Blue Line stations -- as visible in our 1st and 4th visualizations -- was interesting and unexpected to us. After doing some further research, we now hypothesize that these differences are a result of demographic differences between the communities that these two lines serve. More specifically, the Blue Line serves as the main connecting point between East Boston and the downtown area, while the Red Line primarily connects the city with Dorcester and the South Shore. According to a <a href="https://www.wbur.org/news/2016/09/01/bra-report-commute">2016 study</a> by WBUR, a whopping 57% of East Boston residents rely on public transportation to get to work, while only 36% of Dorcester residents do. This would suggest that, generally speaking, those who rely on the Blue Line to get to work for the most part do not have any other options for commuting, whereas the Red Line riders do. For this reason, our hypothesis is that when the pandemic struck and most everyone stopped using the train to get to work, Red Line riders started to use other methods to get to work, and have continued doing so ever since. As the MBTA has continued to have service issues, more and more of these Red Line riders have defected to other forms of transportation, while Blue Line riders have had no other option, hence why their ridership numbers have almost entirely recovered. 
+        </p>
+        <p>
+            Our analysis could lead the MBTA to proceed in a couple of different ways. First, they should likely prioritize changing the public's overall perception of the MBTA today. As mentioned previously, we concluded that the MBTA is likely seeing these drops in ridership in part because people don't trust the trains to get them to and from work safely. As the MBTA continues to clear speed restrictions (which they were trending positively for, as seen in our 2nd visualization), they should promote these and emphasize to the public that the percieved issues are not as bad as they may seen. Additionally, if our second hypothesis is correct, the MBTA should prioritize servicing the Blue Line over the Red Line, since those riders more desperately rely on the trains for their daily commutes. If speed restrictions or service changes are needed on this line, the MBTA should try to clear them as fast as possible due to the demographic identity of the region. Overall, using this analysis as a general framework, the MBTA should pursue future research into the areas that we have identified to determine the best approach to take moving forwards. While the situation does not look great right now, we sincerely hope that, with careful attention to the communities they serve, the MBTA will successfully be able to recover to their pre-COVID prominence and remain a major part of the greater-Boston area infrastructure. 
+        </p>
+        <p>
+            If you have any further questions or ideas on how to continue this research, please feel free to reach out to us, as we would love to talk more about this topic. Thanks!
+            <br>
+                Timothy Clay (clay.t@northeastern.edu)
+            <br>
+                Marcus Roldan (roldan.m@northeastern.edu)
+        </p>
     </main>
-    <script src="index.js"></script>
 </body>
 
 </html>
