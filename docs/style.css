@@ -16,12 +16,20 @@ h1 {
   }
 
 h4 {
-    text-align: center;
+    text-align: left;
+}
+
+img {
+    height: 600px;
+    border: 2px solid black;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    transform: translate(50%, 0%)
 }
 
 .outside_section {
     box-shadow: 0px 0px 5px 5px gray;
-    border-radius: 12px;
+    border-radius: 6px;
     padding: 1rem;
     margin-bottom: 4rem;
     background-color: #fff;
@@ -54,24 +62,22 @@ tr:nth-child(even) {
     border: 1px solid black;
 }
 
-.visual_content{
-    display: flex;
-    justify-content:  center;
-}
-
 main {
-    background-image: url('2013_system_map.png');
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
 }
 
 .section {
-    border: 32px solid blue;
+    border-left: 32px solid #003da5ff;
     position: relative;
-    border-radius: 12px;
-    margin-bottom: 4em;
-    box-shadow: 0px 0px 5px 5px gray;
+    border-radius: 10px;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    margin-bottom: 2em;
+    box-shadow: 0px 0px 2px 2px gray;
     background-color: #fff;
 }
 
@@ -82,14 +88,10 @@ main {
     right: -24px;
     left: -24px;
     bottom: -24px;
-    border: 16px dotted white;
 }
 
 #intro {
-    border-color: red;
-    border-left: 0px;
-    border-top-left-radius: 32px;
-    border-bottom-left-radius: 32px;
+    border-color: #da291cff;
 }
 
 #intro::before {
@@ -98,36 +100,24 @@ main {
 }
 
 #data {
-    border-color: orange;
-    border-top-right-radius: 32px;
-    border-bottom-left-radius: 32px;
-    border-top: 0px;
-    border-left: 0px;
+    border-color: #ed8b00ff;
+    padding-bottom: 12px;
+    margin-bottom: 100px;
 }
 
 #data::before {
-    left: 12px;
-    top: 12px;
+    left: 0px;
+    top: 0px;
     border-top: 0px;
     border-left: 0px;
 }
 
-#data h2{
-    padding-top: 20px;
-    /* position:static; */
-}
-
 #visualization1 {
-    border-color: green;
+    border-color: #00843dff;
 }
 
 #visualization2 {
-    border-color: blue;
-    border-top-left-radius: 32px;
-    border-bottom-left-radius: 32px;
-    border-top: 0px;
-    border-right:0px;
-    border-bottom: 0px;
+    border-color: #003da5ff;
     padding-top: 10px;
     padding-bottom: 20px;
 }
@@ -143,9 +133,7 @@ main {
 
 
 #visualization3 {
-    border-color: red;
-    border-bottom-left-radius: 32px;
-    border-bottom-right-radius: 32px;
+    border-color: #da291cff;
     border-bottom: 0px;
     padding-bottom: 20px;
 }
@@ -156,51 +144,32 @@ main {
 }
 
 #visualization4 {
-    border-color: green;
-    border-bottom-left-radius: 32px;
-    border-top-right-radius: 32px;
-    border-bottom: 0px;
-    border-right: 0px;
+    border-color: #00843dff;
     padding-bottom: 20px;
 }
 
 #visualization4::before {
     bottom: 12px;
     right: 12px;
-    border-bottom: 0px;
-    border-right: 0px;
 }
 
 #visualization5 {
-    border-color: orange;
+    border-color: #ed8b00ff;
 }
 
 #conclusion{
-    border-top-left-radius: 32px;
-    border-top-right-radius: 32px;
-    border-bottom-left-radius: 32px;
-    border-bottom-right-radius: 32px;
-    border-bottom: 0px;
-    border-top: 0px;
     padding-top: 10px;
     padding-bottom: 20px;
-    margin-bottom: 50vh;
+    margin-bottom: 0px;
 }
 
 #conclusion::before {
     bottom: 12px;
     top: 12px;
-    border-bottom: 0px;
-    border-top: 0px;
 }
 
 #title {
-    border-top-color: orange;
-    border-left-color: blue;
-    border-right-color: red;
-    border-bottom-color: green;
-    margin-top: 50vh;
-    margin-bottom: 25vh;
+    border-color: #00843dff;
 }
 
 .background {
@@ -209,4 +178,25 @@ main {
     
     padding: 50px 50px 50px 50px;
     margin: 0.5rem;
+}
+
+#subtitle {
+    margin-top:-20px;
+    text-align: center;
+}
+
+#barchart {
+    height: 600px;
+    border: 0px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    transform: translate(0%, 0%)
+}
+
+#stacked_area {
+    height: 400px;
+    border: 0px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    transform: translate(0%, 0%)
 }
