@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    #vis.vega-embed {
+      width: 100%;
+      display: flex;
+    }
+
+    #vis.vega-embed details,
+    #vis.vega-embed details summary {
+      position: relative;
+    }
+  </style>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/vega@5"></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/vega-lite@5.16.3"></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/vega-embed@6"></script>
+</head>
+<body>
+  <div id="vis"></div>
+  <script>
+    (function(vegaEmbed) {
+      var spec = {"config": {"view": {"continuousWidth": 300, "continuousHeight": 300}}, "data": {"name": "data-adfef609e31727b2e42dc072f82ac8ae"}, "mark": {"type": "line"}, "encoding": {"x": {"axis": {"labelExpr": "dayAbbrevFormat(datum.value)", "title": "Day of the Week"}, "field": "day_of_week", "type": "quantitative"}}, "$schema": "https://vega.github.io/schema/vega-lite/v5.16.3.json", "datasets": {"data-adfef609e31727b2e42dc072f82ac8ae": [{"Unnamed: 0": 0, "day_of_week": 1, "am_rush_avg": 1105.08, "pm_rush_avg": 4064.213333333333, "full_day_avg": 7639.44, "dataset": "2018 Average"}, {"Unnamed: 0": 1, "day_of_week": 2, "am_rush_avg": 1210.24, "pm_rush_avg": 4380.493333333333, "full_day_avg": 8370.266666666666, "dataset": "2018 Average"}, {"Unnamed: 0": 2, "day_of_week": 3, "am_rush_avg": 1191.72, "pm_rush_avg": 4240.746666666667, "full_day_avg": 8411.013333333334, "dataset": "2018 Average"}, {"Unnamed: 0": 3, "day_of_week": 4, "am_rush_avg": 1176.493333333333, "pm_rush_avg": 4181.5199999999995, "full_day_avg": 8239.44, "dataset": "2018 Average"}, {"Unnamed: 0": 4, "day_of_week": 5, "am_rush_avg": 1106.5866666666668, "pm_rush_avg": 4023.013333333334, "full_day_avg": 8405.199999999999, "dataset": "2018 Average"}, {"Unnamed: 0": 5, "day_of_week": 6, "am_rush_avg": 531.2133333333334, "pm_rush_avg": 2616.6266666666666, "full_day_avg": 5986.52, "dataset": "2018 Average"}, {"Unnamed: 0": 6, "day_of_week": 0, "am_rush_avg": 425.5733333333333, "pm_rush_avg": 2179.306666666667, "full_day_avg": 4764.706666666667, "dataset": "2018 Average"}, {"Unnamed: 0": 0, "day_of_week": 1, "am_rush_avg": 568.5288888888889, "pm_rush_avg": 1980.84, "full_day_avg": 4024.56388888889, "dataset": "Average During Restriction"}, {"Unnamed: 0": 1, "day_of_week": 2, "am_rush_avg": 646.7053140096618, "pm_rush_avg": 2375.572463768116, "full_day_avg": 4639.932367149759, "dataset": "Average During Restriction"}, {"Unnamed: 0": 2, "day_of_week": 3, "am_rush_avg": 672.2777777777777, "pm_rush_avg": 2485.930555555555, "full_day_avg": 4902.347222222222, "dataset": "Average During Restriction"}, {"Unnamed: 0": 3, "day_of_week": 4, "am_rush_avg": 658.7916666666666, "pm_rush_avg": 2372.555555555555, "full_day_avg": 4839.166666666667, "dataset": "Average During Restriction"}, {"Unnamed: 0": 4, "day_of_week": 5, "am_rush_avg": 582.3227777777778, "pm_rush_avg": 2175.7516666666666, "full_day_avg": 4790.263333333333, "dataset": "Average During Restriction"}, {"Unnamed: 0": 5, "day_of_week": 6, "am_rush_avg": 350.7916666666667, "pm_rush_avg": 1947.138888888889, "full_day_avg": 4272.486111111111, "dataset": "Average During Restriction"}, {"Unnamed: 0": 6, "day_of_week": 0, "am_rush_avg": 306.56637681159424, "pm_rush_avg": 1771.4307246376811, "full_day_avg": 3750.728115942029, "dataset": "Average During Restriction"}, {"Unnamed: 0": 0, "day_of_week": 1, "am_rush_avg": 105.85416666666669, "pm_rush_avg": 234.16666666666663, "full_day_avg": 569.2916666666666, "dataset": "Average During COVID Lockdown"}, {"Unnamed: 0": 1, "day_of_week": 2, "am_rush_avg": 98.52083333333331, "pm_rush_avg": 227.6875, "full_day_avg": 543.8333333333334, "dataset": "Average During COVID Lockdown"}, {"Unnamed: 0": 2, "day_of_week": 3, "am_rush_avg": 96.91666666666669, "pm_rush_avg": 231.3125, "full_day_avg": 549.375, "dataset": "Average During COVID Lockdown"}, {"Unnamed: 0": 3, "day_of_week": 4, "am_rush_avg": 95.42222222222222, "pm_rush_avg": 206.86666666666667, "full_day_avg": 514.1111111111112, "dataset": "Average During COVID Lockdown"}, {"Unnamed: 0": 4, "day_of_week": 5, "am_rush_avg": 94.0, "pm_rush_avg": 214.8, "full_day_avg": 538.8000000000001, "dataset": "Average During COVID Lockdown"}, {"Unnamed: 0": 5, "day_of_week": 6, "am_rush_avg": 61.06666666666666, "pm_rush_avg": 141.95555555555555, "full_day_avg": 377.6222222222222, "dataset": "Average During COVID Lockdown"}, {"Unnamed: 0": 6, "day_of_week": 0, "am_rush_avg": 52.729166666666664, "pm_rush_avg": 149.875, "full_day_avg": 377.5625, "dataset": "Average During COVID Lockdown"}, {"Unnamed: 0": 0, "day_of_week": 1, "am_rush_avg": 495.5117845117845, "pm_rush_avg": 1724.0589225589226, "full_day_avg": 3565.3653198653196, "dataset": "2023 Average w/o Restrictions"}, {"Unnamed: 0": 1, "day_of_week": 2, "am_rush_avg": 592.6060606060606, "pm_rush_avg": 2328.126262626263, "full_day_avg": 4493.220538720539, "dataset": "2023 Average w/o Restrictions"}, {"Unnamed: 0": 2, "day_of_week": 3, "am_rush_avg": 610.4284511784512, "pm_rush_avg": 2384.5622895622896, "full_day_avg": 4634.835858585859, "dataset": "2023 Average w/o Restrictions"}, {"Unnamed: 0": 3, "day_of_week": 4, "am_rush_avg": 618.1957671957672, "pm_rush_avg": 2334.8518518518517, "full_day_avg": 4691.824074074074, "dataset": "2023 Average w/o Restrictions"}, {"Unnamed: 0": 4, "day_of_week": 5, "am_rush_avg": 538.7484126984126, "pm_rush_avg": 2011.7148148148144, "full_day_avg": 4508.179894179894, "dataset": "2023 Average w/o Restrictions"}, {"Unnamed: 0": 5, "day_of_week": 6, "am_rush_avg": 350.1563492063492, "pm_rush_avg": 1918.731746031746, "full_day_avg": 4255.743650793651, "dataset": "2023 Average w/o Restrictions"}, {"Unnamed: 0": 6, "day_of_week": 0, "am_rush_avg": 256.85016835016836, "pm_rush_avg": 1504.8131313131314, "full_day_avg": 3163.6329966329963, "dataset": "2023 Average w/o Restrictions"}]}};
+      var embedOpt = {"mode": "vega-lite"};
+
+      function showError(el, error){
+          el.innerHTML = ('<div style="color:red;">'
+                          + '<p>JavaScript Error: ' + error.message + '</p>'
+                          + "<p>This usually means there's a typo in your chart specification. "
+                          + "See the javascript console for the full traceback.</p>"
+                          + '</div>');
+          throw error;
+      }
+      const el = document.getElementById('vis');
+      vegaEmbed("#vis", spec, embedOpt)
+        .catch(error => showError(el, error));
+    })(vegaEmbed);
+
+  </script>
+</body>
+</html>

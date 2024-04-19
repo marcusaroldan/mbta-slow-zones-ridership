@@ -1,0 +1,2029 @@
+,year,period,value,station_name,route_or_line
+0,2014,am_rush,141321.08196503547,All,N/A
+1,2014,full_day,514072.53500680026,All,N/A
+2,2014,pm_rush,203162.8206967558,All,N/A
+3,2015,am_rush,138729.78216529437,All,N/A
+4,2015,full_day,493126.908195098,All,N/A
+5,2015,pm_rush,193710.15921726043,All,N/A
+6,2016,am_rush,138370.852943849,All,N/A
+7,2016,full_day,489636.2623135335,All,N/A
+8,2016,pm_rush,195903.72182109123,All,N/A
+9,2017,am_rush,136489.302915702,All,N/A
+10,2017,full_day,476224.676961723,All,N/A
+11,2017,pm_rush,190252.48474268639,All,N/A
+12,2018,am_rush,135245.73891118847,All,N/A
+13,2018,full_day,465963.23138290294,All,N/A
+14,2018,pm_rush,185726.17652292718,All,N/A
+15,2019,am_rush,137518.2557897566,All,N/A
+16,2019,full_day,466415.7521332781,All,N/A
+17,2019,pm_rush,186791.88956591266,All,N/A
+18,2020,am_rush,45858.47007713148,All,N/A
+19,2020,full_day,161050.90818792555,All,N/A
+20,2020,pm_rush,61366.67118418091,All,N/A
+21,2021,am_rush,44431.09920734676,All,N/A
+22,2021,full_day,177380.3855268038,All,N/A
+23,2021,pm_rush,66607.71248099644,All,N/A
+24,2022,am_rush,61156.063936828876,All,N/A
+25,2022,full_day,240172.741994805,All,N/A
+26,2022,pm_rush,92860.5503199161,All,N/A
+27,2023,am_rush,63984.46995700376,All,N/A
+28,2023,full_day,254342.20170752064,All,N/A
+29,2023,pm_rush,99946.11597532754,All,N/A
+0,2014,am_rush,2248.537722908093,Airport,Blue Line
+1,2014,am_rush,279.2770919067215,Aquarium,Blue Line
+2,2014,am_rush,1285.7862068965517,Beachmont,Blue Line
+3,2014,am_rush,150.46090534979425,Bowdoin,Blue Line
+4,2014,am_rush,730.075,Government Center,Blue Line
+5,2014,am_rush,3834.5925925925926,Maverick,Blue Line
+6,2014,am_rush,1630.390041493776,Orient Heights,Blue Line
+7,2014,am_rush,1139.7661623108665,Revere Beach,Blue Line
+8,2014,am_rush,827.5945205479452,State Street,Blue Line
+9,2014,am_rush,240.3062068965517,Suffolk Downs,Blue Line
+10,2014,am_rush,2960.968449931413,Wonderland,Blue Line
+11,2014,am_rush,814.7579529737206,Wood Island,Blue Line
+12,2014,am_rush,634.1344307270233,Arlington,Green Line
+13,2014,am_rush,603.517146776406,Boylston,Green Line
+14,2014,am_rush,1781.5473251028807,Copley,Green Line
+15,2014,am_rush,733.3584905660377,Government Center,Green Line
+16,2014,am_rush,2860.1342465753423,Haymarket,Green Line
+17,2014,am_rush,1244.6488340192043,Hynes Convention Center,Green Line
+18,2014,am_rush,1517.5089163237312,Kenmore,Green Line
+19,2014,am_rush,1355.5062068965517,Lechmere,Green Line
+20,2014,am_rush,4824.068493150685,North Station,Green Line
+21,2014,am_rush,2015.372602739726,Park Street,Green Line
+22,2014,am_rush,457.0068587105624,Prudential,Green Line
+23,2014,am_rush,725.2112482853223,Riverside,Green Line
+24,2014,am_rush,80.98535871156662,Science Park,Green Line
+25,2014,am_rush,379.57887517146776,Symphony,Green Line
+26,2014,am_rush,312.2236286919831,Assembly,Orange Line
+27,2014,am_rush,2702.617283950617,Back Bay,Orange Line
+28,2014,am_rush,604.8834019204389,Chinatown,Orange Line
+29,2014,am_rush,768.5268225584595,Community College,Orange Line
+30,2014,am_rush,1601.0960219478739,Downtown Crossing,Orange Line
+31,2014,am_rush,6048.262002743484,Forest Hills,Orange Line
+32,2014,am_rush,1358.2908093278463,Green Street,Orange Line
+33,2014,am_rush,2863.127572016461,Haymarket,Orange Line
+34,2014,am_rush,2146.2551440329216,Jackson Square,Orange Line
+35,2014,am_rush,5588.63610719323,Malden Center,Orange Line
+36,2014,am_rush,1451.1947873799725,Massachusetts Avenue,Orange Line
+37,2014,am_rush,4830.142661179698,North Station,Orange Line
+38,2014,am_rush,3437.9671897289586,Oak Grove,Orange Line
+39,2014,am_rush,1187.9423868312758,Roxbury Crossing,Orange Line
+40,2014,am_rush,1939.400548696845,Ruggles,Orange Line
+41,2014,am_rush,828.4307270233196,State Street,Orange Line
+42,2014,am_rush,1487.3923182441702,Stony Brook,Orange Line
+43,2014,am_rush,3437.281207133059,Sullivan Square,Orange Line
+44,2014,am_rush,869.4732510288065,Tufts Medical Center,Orange Line
+45,2014,am_rush,3387.394326241135,Wellington,Orange Line
+46,2014,am_rush,4762.558782849239,Alewife,Red Line
+47,2014,am_rush,1941.072546230441,Andrew,Red Line
+48,2014,am_rush,3716.9533607681756,Ashmont,Red Line
+49,2014,am_rush,2148.951856946355,Braintree,Red Line
+50,2014,am_rush,1701.4877697841728,Broadway,Red Line
+51,2014,am_rush,4299.433470507544,Central,Red Line
+52,2014,am_rush,5579.107391910739,Davis,Red Line
+53,2014,am_rush,1599.4054794520548,Downtown Crossing,Red Line
+54,2014,am_rush,1886.8689655172413,Fields Corner,Red Line
+55,2014,am_rush,4373.406035665295,Harvard,Red Line
+56,2014,am_rush,1841.7822468793343,JFK/UMass,Red Line
+57,2014,am_rush,1566.8957475994514,Kendall/MIT,Red Line
+58,2014,am_rush,2904.7820689655173,North Quincy,Red Line
+59,2014,am_rush,2017.5445816186557,Park Street,Red Line
+60,2014,am_rush,3639.711079943899,Porter,Red Line
+61,2014,am_rush,2267.1783264746227,Quincy Adams,Red Line
+62,2014,am_rush,3710.0981767180924,Quincy Center,Red Line
+63,2014,am_rush,1004.8422496570645,Savin Hill,Red Line
+64,2014,am_rush,1056.0960219478739,Shawmut,Red Line
+65,2014,am_rush,4853.3292181069955,South Station,Red Line
+66,2014,am_rush,2243.946502057613,Wollaston,Red Line
+67,2015,am_rush,2192.7983425414363,Airport,Blue Line
+68,2015,am_rush,262.90909090909093,Aquarium,Blue Line
+69,2015,am_rush,1236.3526170798898,Beachmont,Blue Line
+70,2015,am_rush,160.98055555555555,Bowdoin,Blue Line
+71,2015,am_rush,3856.678670360111,Maverick,Blue Line
+72,2015,am_rush,1671.1624649859943,Orient Heights,Blue Line
+73,2015,am_rush,1158.3324099722993,Revere Beach,Blue Line
+74,2015,am_rush,867.8980716253443,State Street,Blue Line
+75,2015,am_rush,304.3509749303621,Suffolk Downs,Blue Line
+76,2015,am_rush,2741.1098591549294,Wonderland,Blue Line
+77,2015,am_rush,750.7645429362881,Wood Island,Blue Line
+78,2015,am_rush,616.8402203856749,Arlington,Green Line
+79,2015,am_rush,569.2707182320441,Boylston,Green Line
+80,2015,am_rush,1743.8292011019284,Copley,Green Line
+81,2015,am_rush,2641.901098901099,Haymarket,Green Line
+82,2015,am_rush,1175.6629834254143,Hynes Convention Center,Green Line
+83,2015,am_rush,1545.5867768595042,Kenmore,Green Line
+84,2015,am_rush,1402.7237569060774,Lechmere,Green Line
+85,2015,am_rush,4682.636363636364,North Station,Green Line
+86,2015,am_rush,2091.9945054945056,Park Street,Green Line
+87,2015,am_rush,464.59779614325066,Prudential,Green Line
+88,2015,am_rush,785.6703601108034,Riverside,Green Line
+89,2015,am_rush,106.85872576177286,Science Park,Green Line
+90,2015,am_rush,382.2513966480447,Symphony,Green Line
+91,2015,am_rush,531.7746478873239,Assembly,Orange Line
+92,2015,am_rush,2654.013736263736,Back Bay,Orange Line
+93,2015,am_rush,564.1191135734072,Chinatown,Orange Line
+94,2015,am_rush,742.646408839779,Community College,Orange Line
+95,2015,am_rush,1782.4697802197802,Downtown Crossing,Orange Line
+96,2015,am_rush,5990.222535211267,Forest Hills,Orange Line
+97,2015,am_rush,1354.46875,Green Street,Orange Line
+98,2015,am_rush,2641.901098901099,Haymarket,Orange Line
+99,2015,am_rush,2130.5421348314608,Jackson Square,Orange Line
+100,2015,am_rush,5233.47323943662,Malden Center,Orange Line
+101,2015,am_rush,1421.3508287292818,Massachusetts Avenue,Orange Line
+102,2015,am_rush,4682.636363636364,North Station,Orange Line
+103,2015,am_rush,3335.6271186440677,Oak Grove,Orange Line
+104,2015,am_rush,1228.8885714285714,Roxbury Crossing,Orange Line
+105,2015,am_rush,1995.2479338842975,Ruggles,Orange Line
+106,2015,am_rush,867.8980716253443,State Street,Orange Line
+107,2015,am_rush,1443.6852367688023,Stony Brook,Orange Line
+108,2015,am_rush,3319.776243093923,Sullivan Square,Orange Line
+109,2015,am_rush,869.1634349030471,Tufts Medical Center,Orange Line
+110,2015,am_rush,3251.355742296919,Wellington,Orange Line
+111,2015,am_rush,4934.316804407714,Alewife,Red Line
+112,2015,am_rush,2052.0027777777777,Andrew,Red Line
+113,2015,am_rush,3778.9285714285716,Ashmont,Red Line
+114,2015,am_rush,1991.5754189944134,Braintree,Red Line
+115,2015,am_rush,1768.781163434903,Broadway,Red Line
+116,2015,am_rush,4228.451523545707,Central,Red Line
+117,2015,am_rush,5646.022038567493,Davis,Red Line
+118,2015,am_rush,1782.4697802197802,Downtown Crossing,Red Line
+119,2015,am_rush,1928.5206611570247,Fields Corner,Red Line
+120,2015,am_rush,4285.755494505494,Harvard,Red Line
+121,2015,am_rush,1883.2288135593221,JFK/UMass,Red Line
+122,2015,am_rush,1563.6060606060605,Kendall/MIT,Red Line
+123,2015,am_rush,2766.374647887324,North Quincy,Red Line
+124,2015,am_rush,2091.9945054945056,Park Street,Red Line
+125,2015,am_rush,3590.750692520776,Porter,Red Line
+126,2015,am_rush,2147.3453038674033,Quincy Adams,Red Line
+127,2015,am_rush,3590.0953757225434,Quincy Center,Red Line
+128,2015,am_rush,1018.5361111111112,Savin Hill,Red Line
+129,2015,am_rush,1066.0138504155125,Shawmut,Red Line
+130,2015,am_rush,4923.36914600551,South Station,Red Line
+131,2015,am_rush,2237.220930232558,Wollaston,Red Line
+132,2016,am_rush,2215.9234972677596,Airport,Blue Line
+133,2016,am_rush,298.91256830601094,Aquarium,Blue Line
+134,2016,am_rush,1309.379781420765,Beachmont,Blue Line
+135,2016,am_rush,147.15573770491804,Bowdoin,Blue Line
+136,2016,am_rush,476.91695501730106,Government Center,Blue Line
+137,2016,am_rush,3976.2349726775956,Maverick,Blue Line
+138,2016,am_rush,1761.6147540983607,Orient Heights,Blue Line
+139,2016,am_rush,1231.967213114754,Revere Beach,Blue Line
+140,2016,am_rush,758.9945355191256,State Street,Blue Line
+141,2016,am_rush,298.75136612021856,Suffolk Downs,Blue Line
+142,2016,am_rush,3117.8551912568305,Wonderland,Blue Line
+143,2016,am_rush,789.2076502732241,Wood Island,Blue Line
+144,2016,am_rush,620.7431693989071,Arlington,Green Line
+145,2016,am_rush,592.4945355191256,Boylston,Green Line
+146,2016,am_rush,1672.3142076502731,Copley,Green Line
+147,2016,am_rush,476.91695501730106,Government Center,Green Line
+148,2016,am_rush,2646.0437158469945,Haymarket,Green Line
+149,2016,am_rush,1102.6448087431695,Hynes Convention Center,Green Line
+150,2016,am_rush,1360.0027322404371,Kenmore,Green Line
+151,2016,am_rush,1310.1010928961748,Lechmere,Green Line
+152,2016,am_rush,4500.493112947658,North Station,Green Line
+153,2016,am_rush,1619.0437158469945,Park Street,Green Line
+154,2016,am_rush,468.43715846994536,Prudential,Green Line
+155,2016,am_rush,745.3032786885246,Riverside,Green Line
+156,2016,am_rush,100.24590163934427,Science Park,Green Line
+157,2016,am_rush,381.37808219178083,Symphony,Green Line
+158,2016,am_rush,565.3195592286502,Assembly,Orange Line
+159,2016,am_rush,2558.0,Back Bay,Orange Line
+160,2016,am_rush,526.5819672131148,Chinatown,Orange Line
+161,2016,am_rush,770.3674033149172,Community College,Orange Line
+162,2016,am_rush,1768.0464480874316,Downtown Crossing,Orange Line
+163,2016,am_rush,5806.35635359116,Forest Hills,Orange Line
+164,2016,am_rush,1371.7162534435263,Green Street,Orange Line
+165,2016,am_rush,2646.0437158469945,Haymarket,Orange Line
+166,2016,am_rush,2133.191135734072,Jackson Square,Orange Line
+167,2016,am_rush,5374.706043956044,Malden Center,Orange Line
+168,2016,am_rush,1414.7768595041323,Massachusetts Avenue,Orange Line
+169,2016,am_rush,4500.493112947658,North Station,Orange Line
+170,2016,am_rush,3474.5083798882683,Oak Grove,Orange Line
+171,2016,am_rush,1237.9694444444444,Roxbury Crossing,Orange Line
+172,2016,am_rush,1901.454794520548,Ruggles,Orange Line
+173,2016,am_rush,758.9945355191256,State Street,Orange Line
+174,2016,am_rush,1433.98087431694,Stony Brook,Orange Line
+175,2016,am_rush,3285.6593406593406,Sullivan Square,Orange Line
+176,2016,am_rush,843.3579234972677,Tufts Medical Center,Orange Line
+177,2016,am_rush,3240.9641873278238,Wellington,Orange Line
+178,2016,am_rush,5043.273972602739,Alewife,Red Line
+179,2016,am_rush,2021.295081967213,Andrew,Red Line
+180,2016,am_rush,3722.7021857923496,Ashmont,Red Line
+181,2016,am_rush,2010.8039215686274,Braintree,Red Line
+182,2016,am_rush,1770.3743169398906,Broadway,Red Line
+183,2016,am_rush,4013.1939890710382,Central,Red Line
+184,2016,am_rush,5617.368131868132,Davis,Red Line
+185,2016,am_rush,1768.0464480874316,Downtown Crossing,Red Line
+186,2016,am_rush,1900.1955922865013,Fields Corner,Red Line
+187,2016,am_rush,4341.284153005465,Harvard,Red Line
+188,2016,am_rush,1935.5710382513662,JFK/UMass,Red Line
+189,2016,am_rush,1494.3628808864266,Kendall/MIT,Red Line
+190,2016,am_rush,2808.185792349727,North Quincy,Red Line
+191,2016,am_rush,1619.0437158469945,Park Street,Red Line
+192,2016,am_rush,3566.78021978022,Porter,Red Line
+193,2016,am_rush,2219.343490304709,Quincy Adams,Red Line
+194,2016,am_rush,3642.1456043956046,Quincy Center,Red Line
+195,2016,am_rush,1036.672131147541,Savin Hill,Red Line
+196,2016,am_rush,1114.6555555555556,Shawmut,Red Line
+197,2016,am_rush,4908.543715846995,South Station,Red Line
+198,2016,am_rush,2225.4459833795013,Wollaston,Red Line
+199,2017,am_rush,2218.476712328767,Airport,Blue Line
+200,2017,am_rush,300.5972602739726,Aquarium,Blue Line
+201,2017,am_rush,1400.2602739726028,Beachmont,Blue Line
+202,2017,am_rush,135.75,Bowdoin,Blue Line
+203,2017,am_rush,561.2109589041096,Government Center,Blue Line
+204,2017,am_rush,4112.109589041096,Maverick,Blue Line
+205,2017,am_rush,1803.4246575342465,Orient Heights,Blue Line
+206,2017,am_rush,1251.9561643835616,Revere Beach,Blue Line
+207,2017,am_rush,718.3232876712328,State Street,Blue Line
+208,2017,am_rush,239.7335164835165,Suffolk Downs,Blue Line
+209,2017,am_rush,3257.7041095890413,Wonderland,Blue Line
+210,2017,am_rush,813.4219178082192,Wood Island,Blue Line
+211,2017,am_rush,591.654794520548,Arlington,Green Line
+212,2017,am_rush,611.1095890410959,Boylston,Green Line
+213,2017,am_rush,1631.027397260274,Copley,Green Line
+214,2017,am_rush,561.2109589041096,Government Center,Green Line
+215,2017,am_rush,2458.1369863013697,Haymarket,Green Line
+216,2017,am_rush,1045.5698630136985,Hynes Convention Center,Green Line
+217,2017,am_rush,1312.5013698630137,Kenmore,Green Line
+218,2017,am_rush,1305.0684931506848,Lechmere,Green Line
+219,2017,am_rush,4325.104109589041,North Station,Green Line
+220,2017,am_rush,1447.786301369863,Park Street,Green Line
+221,2017,am_rush,473.3095890410959,Prudential,Green Line
+222,2017,am_rush,723.9944903581268,Riverside,Green Line
+223,2017,am_rush,96.26849315068493,Science Park,Green Line
+224,2017,am_rush,392.9287671232877,Symphony,Green Line
+225,2017,am_rush,550.2637362637363,Assembly,Orange Line
+226,2017,am_rush,2475.5068493150684,Back Bay,Orange Line
+227,2017,am_rush,541.2301369863013,Chinatown,Orange Line
+228,2017,am_rush,761.0465753424658,Community College,Orange Line
+229,2017,am_rush,1721.6739726027397,Downtown Crossing,Orange Line
+230,2017,am_rush,5713.724719101124,Forest Hills,Orange Line
+231,2017,am_rush,1389.7949438202247,Green Street,Orange Line
+232,2017,am_rush,2458.1369863013697,Haymarket,Orange Line
+233,2017,am_rush,2098.171348314607,Jackson Square,Orange Line
+234,2017,am_rush,5442.715877437326,Malden Center,Orange Line
+235,2017,am_rush,1290.5564738292012,Massachusetts Avenue,Orange Line
+236,2017,am_rush,4325.104109589041,North Station,Orange Line
+237,2017,am_rush,3561.159090909091,Oak Grove,Orange Line
+238,2017,am_rush,1170.258426966292,Roxbury Crossing,Orange Line
+239,2017,am_rush,1791.3698630136987,Ruggles,Orange Line
+240,2017,am_rush,718.3232876712328,State Street,Orange Line
+241,2017,am_rush,1539.7079889807162,Stony Brook,Orange Line
+242,2017,am_rush,3172.884931506849,Sullivan Square,Orange Line
+243,2017,am_rush,808.6191780821918,Tufts Medical Center,Orange Line
+244,2017,am_rush,3254.0274725274726,Wellington,Orange Line
+245,2017,am_rush,5119.443526170799,Alewife,Red Line
+246,2017,am_rush,2004.5068493150684,Andrew,Red Line
+247,2017,am_rush,3685.882191780822,Ashmont,Red Line
+248,2017,am_rush,2008.7731092436975,Braintree,Red Line
+249,2017,am_rush,1707.8438356164384,Broadway,Red Line
+250,2017,am_rush,3944.227397260274,Central,Red Line
+251,2017,am_rush,5478.024793388429,Davis,Red Line
+252,2017,am_rush,1721.6739726027397,Downtown Crossing,Red Line
+253,2017,am_rush,1887.046831955923,Fields Corner,Red Line
+254,2017,am_rush,4153.734246575343,Harvard,Red Line
+255,2017,am_rush,1891.695890410959,JFK/UMass,Red Line
+256,2017,am_rush,1422.271954674221,Kendall/MIT,Red Line
+257,2017,am_rush,2784.4465753424656,North Quincy,Red Line
+258,2017,am_rush,1447.786301369863,Park Street,Red Line
+259,2017,am_rush,3577.6914600550963,Porter,Red Line
+260,2017,am_rush,2317.493074792244,Quincy Adams,Red Line
+261,2017,am_rush,3671.8429752066118,Quincy Center,Red Line
+262,2017,am_rush,1014.0712328767123,Savin Hill,Red Line
+263,2017,am_rush,1076.8434065934066,Shawmut,Red Line
+264,2017,am_rush,4864.380821917808,South Station,Red Line
+265,2017,am_rush,2136.7068493150687,Wollaston,Red Line
+266,2018,am_rush,2300.054794520548,Airport,Blue Line
+267,2018,am_rush,292.0301369863014,Aquarium,Blue Line
+268,2018,am_rush,1381.9506849315069,Beachmont,Blue Line
+269,2018,am_rush,129.93150684931507,Bowdoin,Blue Line
+270,2018,am_rush,610.9506849315069,Government Center,Blue Line
+271,2018,am_rush,4228.682191780822,Maverick,Blue Line
+272,2018,am_rush,1777.0027397260274,Orient Heights,Blue Line
+273,2018,am_rush,1226.5780821917808,Revere Beach,Blue Line
+274,2018,am_rush,680.2191780821918,State Street,Blue Line
+275,2018,am_rush,172.7013698630137,Suffolk Downs,Blue Line
+276,2018,am_rush,3329.3835616438355,Wonderland,Blue Line
+277,2018,am_rush,791.5342465753424,Wood Island,Blue Line
+278,2018,am_rush,596.172602739726,Arlington,Green Line
+279,2018,am_rush,603.0904109589042,Boylston,Green Line
+280,2018,am_rush,1613.7095890410958,Copley,Green Line
+281,2018,am_rush,610.9506849315069,Government Center,Green Line
+282,2018,am_rush,2430.0602739726028,Haymarket,Green Line
+283,2018,am_rush,1004.0739726027397,Hynes Convention Center,Green Line
+284,2018,am_rush,1266.454794520548,Kenmore,Green Line
+285,2018,am_rush,1354.517808219178,Lechmere,Green Line
+286,2018,am_rush,4414.0191780821915,North Station,Green Line
+287,2018,am_rush,1364.9945205479453,Park Street,Green Line
+288,2018,am_rush,469.4356164383562,Prudential,Green Line
+289,2018,am_rush,655.9362880886426,Riverside,Green Line
+290,2018,am_rush,95.91988950276243,Science Park,Green Line
+291,2018,am_rush,402.46849315068494,Symphony,Green Line
+292,2018,am_rush,652.5316804407713,Assembly,Orange Line
+293,2018,am_rush,2564.087671232877,Back Bay,Orange Line
+294,2018,am_rush,575.6739726027397,Chinatown,Orange Line
+295,2018,am_rush,739.9506849315069,Community College,Orange Line
+296,2018,am_rush,1708.7150684931507,Downtown Crossing,Orange Line
+297,2018,am_rush,5563.806358381503,Forest Hills,Orange Line
+298,2018,am_rush,1355.4798850574712,Green Street,Orange Line
+299,2018,am_rush,2430.0602739726028,Haymarket,Orange Line
+300,2018,am_rush,2101.456582633053,Jackson Square,Orange Line
+301,2018,am_rush,5547.406077348066,Malden Center,Orange Line
+302,2018,am_rush,1217.8166666666666,Massachusetts Avenue,Orange Line
+303,2018,am_rush,4414.0191780821915,North Station,Orange Line
+304,2018,am_rush,3515.6060606060605,Oak Grove,Orange Line
+305,2018,am_rush,1150.306179775281,Roxbury Crossing,Orange Line
+306,2018,am_rush,1661.847645429363,Ruggles,Orange Line
+307,2018,am_rush,680.2191780821918,State Street,Orange Line
+308,2018,am_rush,1546.1542699724519,Stony Brook,Orange Line
+309,2018,am_rush,2972.876712328767,Sullivan Square,Orange Line
+310,2018,am_rush,824.4986301369863,Tufts Medical Center,Orange Line
+311,2018,am_rush,3266.159779614325,Wellington,Orange Line
+312,2018,am_rush,5043.057534246575,Alewife,Red Line
+313,2018,am_rush,1961.4356164383562,Andrew,Red Line
+314,2018,am_rush,3711.794520547945,Ashmont,Red Line
+315,2018,am_rush,1961.2528735632184,Braintree,Red Line
+316,2018,am_rush,1711.1013698630136,Broadway,Red Line
+317,2018,am_rush,3858.205479452055,Central,Red Line
+318,2018,am_rush,5247.016666666666,Davis,Red Line
+319,2018,am_rush,1708.7150684931507,Downtown Crossing,Red Line
+320,2018,am_rush,1862.3424657534247,Fields Corner,Red Line
+321,2018,am_rush,3870.1835616438357,Harvard,Red Line
+322,2018,am_rush,1882.9150684931508,JFK/UMass,Red Line
+323,2018,am_rush,1340.3956043956043,Kendall/MIT,Red Line
+324,2018,am_rush,4005.2876712328766,North Quincy,Red Line
+325,2018,am_rush,1364.9945205479453,Park Street,Red Line
+326,2018,am_rush,3594.264623955432,Porter,Red Line
+327,2018,am_rush,2413.296398891967,Quincy Adams,Red Line
+328,2018,am_rush,3417.1022099447514,Quincy Center,Red Line
+329,2018,am_rush,997.5917808219178,Savin Hill,Red Line
+330,2018,am_rush,1051.8602739726027,Shawmut,Red Line
+331,2018,am_rush,4948.572602739726,South Station,Red Line
+332,2018,am_rush,1002.8571428571429,Wollaston,Red Line
+333,2019,am_rush,2438.104109589041,Airport,Blue Line
+334,2019,am_rush,285.8109589041096,Aquarium,Blue Line
+335,2019,am_rush,1509.65564738292,Beachmont,Blue Line
+336,2019,am_rush,136.4082191780822,Bowdoin,Blue Line
+337,2019,am_rush,606.5082417582418,Government Center,Blue Line
+338,2019,am_rush,4492.947945205479,Maverick,Blue Line
+339,2019,am_rush,2019.4077134986226,Orient Heights,Blue Line
+340,2019,am_rush,1280.878787878788,Revere Beach,Blue Line
+341,2019,am_rush,653.7013698630137,State Street,Blue Line
+342,2019,am_rush,288.4171270718232,Suffolk Downs,Blue Line
+343,2019,am_rush,3316.7052341597796,Wonderland,Blue Line
+344,2019,am_rush,773.1043956043956,Wood Island,Blue Line
+345,2019,am_rush,569.1178082191781,Arlington,Green Line
+346,2019,am_rush,555.3205479452055,Boylston,Green Line
+347,2019,am_rush,1620.8693181818182,Copley,Green Line
+348,2019,am_rush,606.5082417582418,Government Center,Green Line
+349,2019,am_rush,2301.0055865921786,Haymarket,Green Line
+350,2019,am_rush,981.4904109589041,Hynes Convention Center,Green Line
+351,2019,am_rush,1259.1260273972603,Kenmore,Green Line
+352,2019,am_rush,1404.3123287671233,Lechmere,Green Line
+353,2019,am_rush,4828.271232876712,North Station,Green Line
+354,2019,am_rush,1402.695890410959,Park Street,Green Line
+355,2019,am_rush,452.3150684931507,Prudential,Green Line
+356,2019,am_rush,643.1381215469613,Riverside,Green Line
+357,2019,am_rush,96.34615384615384,Science Park,Green Line
+358,2019,am_rush,401.05205479452053,Symphony,Green Line
+359,2019,am_rush,816.3541076487252,Assembly,Orange Line
+360,2019,am_rush,2648.4079320113315,Back Bay,Orange Line
+361,2019,am_rush,544.1961325966851,Chinatown,Orange Line
+362,2019,am_rush,723.00826446281,Community College,Orange Line
+363,2019,am_rush,1668.925,Downtown Crossing,Orange Line
+364,2019,am_rush,5556.298850574713,Forest Hills,Orange Line
+365,2019,am_rush,1380.679190751445,Green Street,Orange Line
+366,2019,am_rush,2301.0055865921786,Haymarket,Orange Line
+367,2019,am_rush,2115.6,Jackson Square,Orange Line
+368,2019,am_rush,5613.192634560906,Malden Center,Orange Line
+369,2019,am_rush,1244.2329545454545,Massachusetts Avenue,Orange Line
+370,2019,am_rush,4828.271232876712,North Station,Orange Line
+371,2019,am_rush,3585.371104815864,Oak Grove,Orange Line
+372,2019,am_rush,1200.1049562682215,Roxbury Crossing,Orange Line
+373,2019,am_rush,1731.59604519774,Ruggles,Orange Line
+374,2019,am_rush,653.7013698630137,State Street,Orange Line
+375,2019,am_rush,1582.399433427762,Stony Brook,Orange Line
+376,2019,am_rush,2875.0084985835692,Sullivan Square,Orange Line
+377,2019,am_rush,844.7620396600566,Tufts Medical Center,Orange Line
+378,2019,am_rush,3267.6638418079096,Wellington,Orange Line
+379,2019,am_rush,5217.4647887323945,Alewife,Red Line
+380,2019,am_rush,1886.4578651685392,Andrew,Red Line
+381,2019,am_rush,3611.530726256983,Ashmont,Red Line
+382,2019,am_rush,1993.2464985994397,Braintree,Red Line
+383,2019,am_rush,1795.5098039215686,Broadway,Red Line
+384,2019,am_rush,3849.9301675977654,Central,Red Line
+385,2019,am_rush,5557.899713467049,Davis,Red Line
+386,2019,am_rush,1668.925,Downtown Crossing,Red Line
+387,2019,am_rush,1824.6106442577031,Fields Corner,Red Line
+388,2019,am_rush,3789.660220994475,Harvard,Red Line
+389,2019,am_rush,1917.4301675977654,JFK/UMass,Red Line
+390,2019,am_rush,1353.4733893557423,Kendall/MIT,Red Line
+391,2019,am_rush,3382.2865168539324,North Quincy,Red Line
+392,2019,am_rush,1402.695890410959,Park Street,Red Line
+393,2019,am_rush,3768.1098265895953,Porter,Red Line
+394,2019,am_rush,2121.4674220963175,Quincy Adams,Red Line
+395,2019,am_rush,3285.798319327731,Quincy Center,Red Line
+396,2019,am_rush,983.8319327731092,Savin Hill,Red Line
+397,2019,am_rush,1020.2296918767507,Shawmut,Red Line
+398,2019,am_rush,5268.122562674094,South Station,Red Line
+399,2019,am_rush,1715.576923076923,Wollaston,Red Line
+400,2020,am_rush,1020.7378917378917,Airport,Blue Line
+401,2020,am_rush,110.84615384615384,Aquarium,Blue Line
+402,2020,am_rush,647.0948275862069,Beachmont,Blue Line
+403,2020,am_rush,68.22792022792022,Bowdoin,Blue Line
+404,2020,am_rush,251.11748633879782,Government Center,Blue Line
+405,2020,am_rush,1908.1529745042492,Maverick,Blue Line
+406,2020,am_rush,835.8939828080229,Orient Heights,Blue Line
+407,2020,am_rush,611.485632183908,Revere Beach,Blue Line
+408,2020,am_rush,289.4672131147541,State Street,Blue Line
+409,2020,am_rush,148.14121037463977,Suffolk Downs,Blue Line
+410,2020,am_rush,1228.4956772334294,Wonderland,Blue Line
+411,2020,am_rush,318.8296089385475,Wood Island,Blue Line
+412,2020,am_rush,171.44109589041096,Arlington,Green Line
+413,2020,am_rush,204.5054644808743,Boylston,Green Line
+414,2020,am_rush,492.72752808988764,Copley,Green Line
+415,2020,am_rush,251.11748633879782,Government Center,Green Line
+416,2020,am_rush,1013.0027932960894,Haymarket,Green Line
+417,2020,am_rush,293.1366120218579,Hynes Convention Center,Green Line
+418,2020,am_rush,411.4590163934426,Kenmore,Green Line
+419,2020,am_rush,730.4791666666666,Lechmere,Green Line
+420,2020,am_rush,1413.2431693989072,North Station,Green Line
+421,2020,am_rush,481.8415300546448,Park Street,Green Line
+422,2020,am_rush,143.74590163934425,Prudential,Green Line
+423,2020,am_rush,160.60555555555555,Riverside,Green Line
+424,2020,am_rush,34.84507042253521,Science Park,Green Line
+425,2020,am_rush,134.03846153846155,Symphony,Green Line
+426,2020,am_rush,233.06741573033707,Assembly,Orange Line
+427,2020,am_rush,784.7011173184358,Back Bay,Orange Line
+428,2020,am_rush,216.06060606060606,Chinatown,Orange Line
+429,2020,am_rush,221.81491712707182,Community College,Orange Line
+430,2020,am_rush,617.1311475409836,Downtown Crossing,Orange Line
+431,2020,am_rush,1884.221288515406,Forest Hills,Orange Line
+432,2020,am_rush,390.3792134831461,Green Street,Orange Line
+433,2020,am_rush,1013.0027932960894,Haymarket,Orange Line
+434,2020,am_rush,772.3081232492997,Jackson Square,Orange Line
+435,2020,am_rush,1749.149295774648,Malden Center,Orange Line
+436,2020,am_rush,466.5365168539326,Massachusetts Avenue,Orange Line
+437,2020,am_rush,1413.2431693989072,North Station,Orange Line
+438,2020,am_rush,1051.2360655737705,Oak Grove,Orange Line
+439,2020,am_rush,383.2556179775281,Roxbury Crossing,Orange Line
+440,2020,am_rush,669.9323943661972,Ruggles,Orange Line
+441,2020,am_rush,289.4672131147541,State Street,Orange Line
+442,2020,am_rush,470.33988764044943,Stony Brook,Orange Line
+443,2020,am_rush,1102.3595505617977,Sullivan Square,Orange Line
+444,2020,am_rush,317.5966386554622,Tufts Medical Center,Orange Line
+445,2020,am_rush,995.1638888888889,Wellington,Orange Line
+446,2020,am_rush,1277.4876712328767,Alewife,Red Line
+447,2020,am_rush,724.9508196721312,Andrew,Red Line
+448,2020,am_rush,1363.551912568306,Ashmont,Red Line
+449,2020,am_rush,589.4563380281691,Braintree,Red Line
+450,2020,am_rush,562.7704918032787,Broadway,Red Line
+451,2020,am_rush,1157.6994535519125,Central,Red Line
+452,2020,am_rush,1428.235294117647,Davis,Red Line
+453,2020,am_rush,617.1311475409836,Downtown Crossing,Red Line
+454,2020,am_rush,782.6174863387978,Fields Corner,Red Line
+455,2020,am_rush,1114.931693989071,Harvard,Red Line
+456,2020,am_rush,654.2267759562842,JFK/UMass,Red Line
+457,2020,am_rush,398.25409836065575,Kendall/MIT,Red Line
+458,2020,am_rush,778.9016393442623,North Quincy,Red Line
+459,2020,am_rush,481.8415300546448,Park Street,Red Line
+460,2020,am_rush,978.7393767705382,Porter,Red Line
+461,2020,am_rush,551.5666666666667,Quincy Adams,Red Line
+462,2020,am_rush,1152.5081967213114,Quincy Center,Red Line
+463,2020,am_rush,350.6338797814208,Savin Hill,Red Line
+464,2020,am_rush,369.8684931506849,Shawmut,Red Line
+465,2020,am_rush,1532.4043715846994,South Station,Red Line
+466,2020,am_rush,575.0464480874317,Wollaston,Red Line
+467,2021,am_rush,1231.5424657534247,Airport,Blue Line
+468,2021,am_rush,136.53150684931506,Aquarium,Blue Line
+469,2021,am_rush,704.4767123287671,Beachmont,Blue Line
+470,2021,am_rush,85.23351648351648,Bowdoin,Blue Line
+471,2021,am_rush,231.56712328767122,Government Center,Blue Line
+472,2021,am_rush,2116.9698630136986,Maverick,Blue Line
+473,2021,am_rush,885.517808219178,Orient Heights,Blue Line
+474,2021,am_rush,671.7123287671233,Revere Beach,Blue Line
+475,2021,am_rush,307.26027397260276,State Street,Blue Line
+476,2021,am_rush,111.15342465753425,Suffolk Downs,Blue Line
+477,2021,am_rush,1149.9178082191781,Wonderland,Blue Line
+478,2021,am_rush,375.8904109589041,Wood Island,Blue Line
+479,2021,am_rush,205.96986301369864,Arlington,Green Line
+480,2021,am_rush,265.46027397260275,Boylston,Green Line
+481,2021,am_rush,598.6383561643836,Copley,Green Line
+482,2021,am_rush,231.56712328767122,Government Center,Green Line
+483,2021,am_rush,1157.986301369863,Haymarket,Green Line
+484,2021,am_rush,338.49041095890414,Hynes Convention Center,Green Line
+485,2021,am_rush,551.1315068493151,Kenmore,Green Line
+486,2021,am_rush,1176.5369863013698,North Station,Green Line
+487,2021,am_rush,516.4602739726027,Park Street,Green Line
+488,2021,am_rush,182.65205479452055,Prudential,Green Line
+489,2021,am_rush,151.6536312849162,Riverside,Green Line
+490,2021,am_rush,133.92307692307693,Symphony,Green Line
+491,2021,am_rush,201.77712609970675,Assembly,Orange Line
+492,2021,am_rush,628.8191780821918,Back Bay,Orange Line
+493,2021,am_rush,236.85479452054796,Chinatown,Orange Line
+494,2021,am_rush,232.36438356164385,Community College,Orange Line
+495,2021,am_rush,694.5643835616438,Downtown Crossing,Orange Line
+496,2021,am_rush,1794.8219178082193,Forest Hills,Orange Line
+497,2021,am_rush,341.3333333333333,Green Street,Orange Line
+498,2021,am_rush,1157.986301369863,Haymarket,Orange Line
+499,2021,am_rush,785.8901098901099,Jackson Square,Orange Line
+500,2021,am_rush,1571.9352941176471,Malden Center,Orange Line
+501,2021,am_rush,466.25479452054793,Massachusetts Avenue,Orange Line
+502,2021,am_rush,1176.5369863013698,North Station,Orange Line
+503,2021,am_rush,765.5850746268657,Oak Grove,Orange Line
+504,2021,am_rush,397.39118457300276,Roxbury Crossing,Orange Line
+505,2021,am_rush,636.3369863013698,Ruggles,Orange Line
+506,2021,am_rush,307.26027397260276,State Street,Orange Line
+507,2021,am_rush,431.88493150684934,Stony Brook,Orange Line
+508,2021,am_rush,1350.6493150684933,Sullivan Square,Orange Line
+509,2021,am_rush,347.63013698630135,Tufts Medical Center,Orange Line
+510,2021,am_rush,727.1325648414986,Wellington,Orange Line
+511,2021,am_rush,1101.8708791208792,Alewife,Red Line
+512,2021,am_rush,783.075208913649,Andrew,Red Line
+513,2021,am_rush,1365.7802197802198,Ashmont,Red Line
+514,2021,am_rush,506.4767123287671,Braintree,Red Line
+515,2021,am_rush,534.6353276353276,Broadway,Red Line
+516,2021,am_rush,1207.7945205479452,Central,Red Line
+517,2021,am_rush,1219.7205479452055,Davis,Red Line
+518,2021,am_rush,694.5643835616438,Downtown Crossing,Red Line
+519,2021,am_rush,848.5730027548209,Fields Corner,Red Line
+520,2021,am_rush,1088.9561643835616,Harvard,Red Line
+521,2021,am_rush,655.4683195592287,JFK/UMass,Red Line
+522,2021,am_rush,431.50958904109586,Kendall/MIT,Red Line
+523,2021,am_rush,730.2054794520548,North Quincy,Red Line
+524,2021,am_rush,516.4602739726027,Park Street,Red Line
+525,2021,am_rush,844.4931129476583,Porter,Red Line
+526,2021,am_rush,442.6575342465753,Quincy Adams,Red Line
+527,2021,am_rush,1076.0630136986301,Quincy Center,Red Line
+528,2021,am_rush,347.4986301369863,Savin Hill,Red Line
+529,2021,am_rush,397.55096418732785,Shawmut,Red Line
+530,2021,am_rush,1239.7095890410958,South Station,Red Line
+531,2021,am_rush,626.7835616438356,Wollaston,Red Line
+532,2022,am_rush,1535.2191780821918,Airport,Blue Line
+533,2022,am_rush,158.76988636363637,Aquarium,Blue Line
+534,2022,am_rush,928.6494252873563,Beachmont,Blue Line
+535,2022,am_rush,101.71884057971015,Bowdoin,Blue Line
+536,2022,am_rush,553.7565982404692,Government Center,Blue Line
+537,2022,am_rush,2639.9265536723165,Maverick,Blue Line
+538,2022,am_rush,1285.2493150684932,Orient Heights,Blue Line
+539,2022,am_rush,838.4310344827586,Revere Beach,Blue Line
+540,2022,am_rush,421.57260273972605,State Street,Blue Line
+541,2022,am_rush,118.85878962536023,Suffolk Downs,Blue Line
+542,2022,am_rush,1299.284090909091,Wonderland,Blue Line
+543,2022,am_rush,463.28846153846155,Wood Island,Blue Line
+544,2022,am_rush,321.1890410958904,Arlington,Green Line
+545,2022,am_rush,394.1890410958904,Boylston,Green Line
+546,2022,am_rush,932.8953168044077,Copley,Green Line
+547,2022,am_rush,553.7565982404692,Government Center,Green Line
+548,2022,am_rush,1106.2219178082191,Haymarket,Green Line
+549,2022,am_rush,506.54794520547944,Hynes Convention Center,Green Line
+550,2022,am_rush,696.3698630136986,Kenmore,Green Line
+551,2022,am_rush,411.3643410852713,Lechmere,Green Line
+552,2022,am_rush,1802.95,North Station,Green Line
+553,2022,am_rush,787.9369863013699,Park Street,Green Line
+554,2022,am_rush,269.4180790960452,Prudential,Green Line
+555,2022,am_rush,266.21325648414984,Riverside,Green Line
+556,2022,am_rush,45.57564575645756,Science Park,Green Line
+557,2022,am_rush,206.5632183908046,Symphony,Green Line
+558,2022,am_rush,348.9798850574713,Assembly,Orange Line
+559,2022,am_rush,791.5880681818181,Back Bay,Orange Line
+560,2022,am_rush,278.80924855491327,Chinatown,Orange Line
+561,2022,am_rush,332.4881656804734,Community College,Orange Line
+562,2022,am_rush,870.2657534246575,Downtown Crossing,Orange Line
+563,2022,am_rush,2322.91788856305,Forest Hills,Orange Line
+564,2022,am_rush,519.7543859649123,Green Street,Orange Line
+565,2022,am_rush,1106.2219178082191,Haymarket,Orange Line
+566,2022,am_rush,922.7758620689655,Jackson Square,Orange Line
+567,2022,am_rush,1965.0394366197183,Malden Center,Orange Line
+568,2022,am_rush,511.7685714285714,Massachusetts Avenue,Orange Line
+569,2022,am_rush,1802.95,North Station,Orange Line
+570,2022,am_rush,1269.0712166172107,Oak Grove,Orange Line
+571,2022,am_rush,501.18075801749274,Roxbury Crossing,Orange Line
+572,2022,am_rush,742.8932584269663,Ruggles,Orange Line
+573,2022,am_rush,421.57260273972605,State Street,Orange Line
+574,2022,am_rush,589.5580110497237,Stony Brook,Orange Line
+575,2022,am_rush,1403.400576368876,Sullivan Square,Orange Line
+576,2022,am_rush,432.5357142857143,Tufts Medical Center,Orange Line
+577,2022,am_rush,1141.6894586894587,Wellington,Orange Line
+578,2022,am_rush,1862.3388429752067,Alewife,Red Line
+579,2022,am_rush,1047.0853994490358,Andrew,Red Line
+580,2022,am_rush,1699.6931506849314,Ashmont,Red Line
+581,2022,am_rush,849.771349862259,Braintree,Red Line
+582,2022,am_rush,812.8112676056338,Broadway,Red Line
+583,2022,am_rush,1734.6785714285713,Central,Red Line
+584,2022,am_rush,1914.8133704735376,Davis,Red Line
+585,2022,am_rush,870.2657534246575,Downtown Crossing,Red Line
+586,2022,am_rush,1036.0304709141274,Fields Corner,Red Line
+587,2022,am_rush,1647.989010989011,Harvard,Red Line
+588,2022,am_rush,963.9472222222222,JFK/UMass,Red Line
+589,2022,am_rush,649.5165745856353,Kendall/MIT,Red Line
+590,2022,am_rush,1114.2219178082191,North Quincy,Red Line
+591,2022,am_rush,787.9369863013699,Park Street,Red Line
+592,2022,am_rush,1389.217270194986,Porter,Red Line
+593,2022,am_rush,674.2299168975069,Quincy Adams,Red Line
+594,2022,am_rush,1422.4931506849316,Quincy Center,Red Line
+595,2022,am_rush,429.1138888888889,Savin Hill,Red Line
+596,2022,am_rush,519.2707182320441,Shawmut,Red Line
+597,2022,am_rush,2006.8931506849315,South Station,Red Line
+598,2022,am_rush,802.3691460055096,Wollaston,Red Line
+599,2023,am_rush,1924.7506849315068,Airport,Blue Line
+600,2023,am_rush,221.21917808219177,Aquarium,Blue Line
+601,2023,am_rush,1110.772602739726,Beachmont,Blue Line
+602,2023,am_rush,127.47671232876712,Bowdoin,Blue Line
+603,2023,am_rush,525.6480938416422,Government Center,Blue Line
+604,2023,am_rush,3087.753424657534,Maverick,Blue Line
+605,2023,am_rush,1370.6666666666667,Orient Heights,Blue Line
+606,2023,am_rush,1028.1616438356164,Revere Beach,Blue Line
+607,2023,am_rush,507.0301369863014,State Street,Blue Line
+608,2023,am_rush,238.64383561643837,Suffolk Downs,Blue Line
+609,2023,am_rush,1859.4739726027397,Wonderland,Blue Line
+610,2023,am_rush,541.9561643835616,Wood Island,Blue Line
+611,2023,am_rush,343.935393258427,Arlington,Green Line
+612,2023,am_rush,416.01714285714286,Boylston,Green Line
+613,2023,am_rush,863.693820224719,Copley,Green Line
+614,2023,am_rush,525.6480938416422,Government Center,Green Line
+615,2023,am_rush,976.0849056603773,Haymarket,Green Line
+616,2023,am_rush,542.2647887323943,Hynes Convention Center,Green Line
+617,2023,am_rush,653.443820224719,Kenmore,Green Line
+618,2023,am_rush,323.0911602209945,Lechmere,Green Line
+619,2023,am_rush,2095.611898016997,North Station,Green Line
+620,2023,am_rush,829.6969696969697,Park Street,Green Line
+621,2023,am_rush,296.075,Prudential,Green Line
+622,2023,am_rush,297.2825484764543,Riverside,Green Line
+623,2023,am_rush,53.59279778393352,Science Park,Green Line
+624,2023,am_rush,210.16573033707866,Symphony,Green Line
+625,2023,am_rush,458.5671232876712,Assembly,Orange Line
+626,2023,am_rush,947.5333333333333,Back Bay,Orange Line
+627,2023,am_rush,313.5835616438356,Chinatown,Orange Line
+628,2023,am_rush,369.5260273972603,Community College,Orange Line
+629,2023,am_rush,917.1260273972603,Downtown Crossing,Orange Line
+630,2023,am_rush,2430.5068493150684,Forest Hills,Orange Line
+631,2023,am_rush,611.0794520547945,Green Street,Orange Line
+632,2023,am_rush,976.0849056603773,Haymarket,Orange Line
+633,2023,am_rush,946.972602739726,Jackson Square,Orange Line
+634,2023,am_rush,2218.4558011049726,Malden Center,Orange Line
+635,2023,am_rush,557.0604395604396,Massachusetts Avenue,Orange Line
+636,2023,am_rush,2095.611898016997,North Station,Orange Line
+637,2023,am_rush,1616.6657534246576,Oak Grove,Orange Line
+638,2023,am_rush,557.2739726027397,Roxbury Crossing,Orange Line
+639,2023,am_rush,710.1703296703297,Ruggles,Orange Line
+640,2023,am_rush,507.0301369863014,State Street,Orange Line
+641,2023,am_rush,730.0712328767123,Stony Brook,Orange Line
+642,2023,am_rush,1288.6914600550965,Sullivan Square,Orange Line
+643,2023,am_rush,469.6786703601108,Tufts Medical Center,Orange Line
+644,2023,am_rush,1201.9642857142858,Wellington,Orange Line
+645,2023,am_rush,1821.8544303797469,Alewife,Red Line
+646,2023,am_rush,1020.6067415730337,Andrew,Red Line
+647,2023,am_rush,1438.941504178273,Ashmont,Red Line
+648,2023,am_rush,649.3083573487032,Braintree,Red Line
+649,2023,am_rush,830.6257142857143,Broadway,Red Line
+650,2023,am_rush,1522.3068493150686,Central,Red Line
+651,2023,am_rush,1693.8116343490306,Davis,Red Line
+652,2023,am_rush,917.1260273972603,Downtown Crossing,Red Line
+653,2023,am_rush,905.4147058823529,Fields Corner,Red Line
+654,2023,am_rush,1657.3961218836564,Harvard,Red Line
+655,2023,am_rush,991.7478260869565,JFK/UMass,Red Line
+656,2023,am_rush,725.2709497206704,Kendall/MIT,Red Line
+657,2023,am_rush,1014.1745152354571,North Quincy,Red Line
+658,2023,am_rush,829.6969696969697,Park Street,Red Line
+659,2023,am_rush,1419.005540166205,Porter,Red Line
+660,2023,am_rush,577.9661016949152,Quincy Adams,Red Line
+661,2023,am_rush,1018.5883977900553,Quincy Center,Red Line
+662,2023,am_rush,341.99719101123594,Savin Hill,Red Line
+663,2023,am_rush,469.15449438202245,Shawmut,Red Line
+664,2023,am_rush,2452.335195530726,South Station,Red Line
+665,2023,am_rush,793.3296398891966,Wollaston,Red Line
+666,2014,pm_rush,1732.2194787379972,Airport,Blue Line
+667,2014,pm_rush,2321.477366255144,Aquarium,Blue Line
+668,2014,pm_rush,446.31310344827585,Beachmont,Blue Line
+669,2014,pm_rush,1126.8230452674898,Bowdoin,Blue Line
+670,2014,pm_rush,4408.825,Government Center,Blue Line
+671,2014,pm_rush,2111.488340192044,Maverick,Blue Line
+672,2014,pm_rush,645.8243430152144,Orient Heights,Blue Line
+673,2014,pm_rush,627.0481430536452,Revere Beach,Blue Line
+674,2014,pm_rush,7698.2054794520545,State Street,Blue Line
+675,2014,pm_rush,164.09379310344826,Suffolk Downs,Blue Line
+676,2014,pm_rush,813.9026063100138,Wonderland,Blue Line
+677,2014,pm_rush,427.39142461964036,Wood Island,Blue Line
+678,2014,pm_rush,3663.6008230452676,Arlington,Green Line
+679,2014,pm_rush,2441.960219478738,Boylston,Green Line
+680,2014,pm_rush,5677.672153635117,Copley,Green Line
+681,2014,pm_rush,4425.861635220126,Government Center,Green Line
+682,2014,pm_rush,4557.413698630137,Haymarket,Green Line
+683,2014,pm_rush,3393.761316872428,Hynes Convention Center,Green Line
+684,2014,pm_rush,3264.422496570645,Kenmore,Green Line
+685,2014,pm_rush,2303.4096551724137,Lechmere,Green Line
+686,2014,pm_rush,4795.038356164384,North Station,Green Line
+687,2014,pm_rush,10276.049315068492,Park Street,Green Line
+688,2014,pm_rush,1471.7229080932784,Prudential,Green Line
+689,2014,pm_rush,649.2962962962963,Riverside,Green Line
+690,2014,pm_rush,422.7891654465593,Science Park,Green Line
+691,2014,pm_rush,498.9053497942387,Symphony,Green Line
+692,2014,pm_rush,686.2911392405064,Assembly,Orange Line
+693,2014,pm_rush,7082.707818930041,Back Bay,Orange Line
+694,2014,pm_rush,2566.949245541838,Chinatown,Orange Line
+695,2014,pm_rush,1428.6327372764788,Community College,Orange Line
+696,2014,pm_rush,10651.229080932784,Downtown Crossing,Orange Line
+697,2014,pm_rush,2520.4869684499313,Forest Hills,Orange Line
+698,2014,pm_rush,698.5692729766804,Green Street,Orange Line
+699,2014,pm_rush,4561.506172839506,Haymarket,Orange Line
+700,2014,pm_rush,1273.8998628257887,Jackson Square,Orange Line
+701,2014,pm_rush,1693.6332863187588,Malden Center,Orange Line
+702,2014,pm_rush,2076.2853223593966,Massachusetts Avenue,Orange Line
+703,2014,pm_rush,4800.163237311385,North Station,Orange Line
+704,2014,pm_rush,729.5791726105564,Oak Grove,Orange Line
+705,2014,pm_rush,1284.9780521262003,Roxbury Crossing,Orange Line
+706,2014,pm_rush,3711.1783264746227,Ruggles,Orange Line
+707,2014,pm_rush,7707.2990397805215,State Street,Orange Line
+708,2014,pm_rush,696.3031550068587,Stony Brook,Orange Line
+709,2014,pm_rush,2398.1577503429357,Sullivan Square,Orange Line
+710,2014,pm_rush,2520.1550068587107,Tufts Medical Center,Orange Line
+711,2014,pm_rush,1434.8936170212767,Wellington,Orange Line
+712,2014,pm_rush,2367.9474412171508,Alewife,Red Line
+713,2014,pm_rush,1633.5547652916075,Andrew,Red Line
+714,2014,pm_rush,1460.679012345679,Ashmont,Red Line
+715,2014,pm_rush,821.6602475928473,Braintree,Red Line
+716,2014,pm_rush,1971.451798561151,Broadway,Red Line
+717,2014,pm_rush,5030.846364883402,Central,Red Line
+718,2014,pm_rush,2369.715481171548,Davis,Red Line
+719,2014,pm_rush,10640.202739726028,Downtown Crossing,Red Line
+720,2014,pm_rush,1006.9296551724138,Fields Corner,Red Line
+721,2014,pm_rush,8207.251028806584,Harvard,Red Line
+722,2014,pm_rush,2758.669902912621,JFK/UMass,Red Line
+723,2014,pm_rush,7562.775034293552,Kendall/MIT,Red Line
+724,2014,pm_rush,1164.7310344827586,North Quincy,Red Line
+725,2014,pm_rush,10285.9122085048,Park Street,Red Line
+726,2014,pm_rush,1706.9158485273492,Porter,Red Line
+727,2014,pm_rush,726.0438957475994,Quincy Adams,Red Line
+728,2014,pm_rush,1327.2384291725105,Quincy Center,Red Line
+729,2014,pm_rush,459.241426611797,Savin Hill,Red Line
+730,2014,pm_rush,333.6502057613169,Shawmut,Red Line
+731,2014,pm_rush,9937.0329218107,South Station,Red Line
+732,2014,pm_rush,501.957475994513,Wollaston,Red Line
+733,2015,pm_rush,1602.2127071823204,Airport,Blue Line
+734,2015,pm_rush,2232.3305785123966,Aquarium,Blue Line
+735,2015,pm_rush,425.53719008264466,Beachmont,Blue Line
+736,2015,pm_rush,1222.7694444444444,Bowdoin,Blue Line
+737,2015,pm_rush,2091.174515235457,Maverick,Blue Line
+738,2015,pm_rush,662.3165266106442,Orient Heights,Blue Line
+739,2015,pm_rush,606.8642659279778,Revere Beach,Blue Line
+740,2015,pm_rush,8178.994490358126,State Street,Blue Line
+741,2015,pm_rush,175.32590529247912,Suffolk Downs,Blue Line
+742,2015,pm_rush,740.1295774647888,Wonderland,Blue Line
+743,2015,pm_rush,418.37396121883654,Wood Island,Blue Line
+744,2015,pm_rush,3501.4325068870526,Arlington,Green Line
+745,2015,pm_rush,2235.4364640883978,Boylston,Green Line
+746,2015,pm_rush,5447.371900826446,Copley,Green Line
+747,2015,pm_rush,4536.881868131868,Haymarket,Green Line
+748,2015,pm_rush,3102.8314917127072,Hynes Convention Center,Green Line
+749,2015,pm_rush,3241.0771349862257,Kenmore,Green Line
+750,2015,pm_rush,2259.9088397790056,Lechmere,Green Line
+751,2015,pm_rush,4744.539944903581,North Station,Green Line
+752,2015,pm_rush,10581.728021978022,Park Street,Green Line
+753,2015,pm_rush,1345.749311294766,Prudential,Green Line
+754,2015,pm_rush,628.3490304709142,Riverside,Green Line
+755,2015,pm_rush,472.3628808864266,Science Park,Green Line
+756,2015,pm_rush,493.4860335195531,Symphony,Green Line
+757,2015,pm_rush,845.0225352112676,Assembly,Orange Line
+758,2015,pm_rush,6598.9670329670325,Back Bay,Orange Line
+759,2015,pm_rush,2359.8891966759,Chinatown,Orange Line
+760,2015,pm_rush,1376.842541436464,Community College,Orange Line
+761,2015,pm_rush,11169.348901098901,Downtown Crossing,Orange Line
+762,2015,pm_rush,2441.2169014084507,Forest Hills,Orange Line
+763,2015,pm_rush,673.8323863636364,Green Street,Orange Line
+764,2015,pm_rush,4536.881868131868,Haymarket,Orange Line
+765,2015,pm_rush,1234.758426966292,Jackson Square,Orange Line
+766,2015,pm_rush,1625.594366197183,Malden Center,Orange Line
+767,2015,pm_rush,2022.124309392265,Massachusetts Avenue,Orange Line
+768,2015,pm_rush,4744.539944903581,North Station,Orange Line
+769,2015,pm_rush,708.7881355932203,Oak Grove,Orange Line
+770,2015,pm_rush,1339.48,Roxbury Crossing,Orange Line
+771,2015,pm_rush,3701.947658402204,Ruggles,Orange Line
+772,2015,pm_rush,8178.994490358126,State Street,Orange Line
+773,2015,pm_rush,657.0779944289693,Stony Brook,Orange Line
+774,2015,pm_rush,2231.027624309392,Sullivan Square,Orange Line
+775,2015,pm_rush,2452.2991689750693,Tufts Medical Center,Orange Line
+776,2015,pm_rush,1311.6778711484594,Wellington,Orange Line
+777,2015,pm_rush,2457.99173553719,Alewife,Red Line
+778,2015,pm_rush,1579.5555555555557,Andrew,Red Line
+779,2015,pm_rush,1503.3543956043957,Ashmont,Red Line
+780,2015,pm_rush,758.9189944134079,Braintree,Red Line
+781,2015,pm_rush,2137.9667590027702,Broadway,Red Line
+782,2015,pm_rush,4987.202216066482,Central,Red Line
+783,2015,pm_rush,2316.807162534435,Davis,Red Line
+784,2015,pm_rush,11169.348901098901,Downtown Crossing,Red Line
+785,2015,pm_rush,1023.5426997245179,Fields Corner,Red Line
+786,2015,pm_rush,7700.942307692308,Harvard,Red Line
+787,2015,pm_rush,2789.898305084746,JFK/UMass,Red Line
+788,2015,pm_rush,7634.0716253443525,Kendall/MIT,Red Line
+789,2015,pm_rush,1142.6169014084508,North Quincy,Red Line
+790,2015,pm_rush,10581.728021978022,Park Street,Red Line
+791,2015,pm_rush,1654.0027700831024,Porter,Red Line
+792,2015,pm_rush,662.9088397790056,Quincy Adams,Red Line
+793,2015,pm_rush,1245.121387283237,Quincy Center,Red Line
+794,2015,pm_rush,450.5805555555556,Savin Hill,Red Line
+795,2015,pm_rush,339.7091412742382,Shawmut,Red Line
+796,2015,pm_rush,9939.848484848484,South Station,Red Line
+797,2015,pm_rush,476.54651162790697,Wollaston,Red Line
+798,2016,pm_rush,1703.8387978142077,Airport,Blue Line
+799,2016,pm_rush,2423.071038251366,Aquarium,Blue Line
+800,2016,pm_rush,455.57650273224044,Beachmont,Blue Line
+801,2016,pm_rush,1035.7732240437158,Bowdoin,Blue Line
+802,2016,pm_rush,3293.1903114186853,Government Center,Blue Line
+803,2016,pm_rush,2201.2704918032787,Maverick,Blue Line
+804,2016,pm_rush,698.2377049180328,Orient Heights,Blue Line
+805,2016,pm_rush,650.8333333333334,Revere Beach,Blue Line
+806,2016,pm_rush,7453.150273224043,State Street,Blue Line
+807,2016,pm_rush,181.0928961748634,Suffolk Downs,Blue Line
+808,2016,pm_rush,840.1065573770492,Wonderland,Blue Line
+809,2016,pm_rush,448.11475409836066,Wood Island,Blue Line
+810,2016,pm_rush,3432.751366120219,Arlington,Green Line
+811,2016,pm_rush,2183.8606557377047,Boylston,Green Line
+812,2016,pm_rush,5465.972677595629,Copley,Green Line
+813,2016,pm_rush,3293.1903114186853,Government Center,Green Line
+814,2016,pm_rush,4143.31693989071,Haymarket,Green Line
+815,2016,pm_rush,3012.658469945355,Hynes Convention Center,Green Line
+816,2016,pm_rush,2892.117486338798,Kenmore,Green Line
+817,2016,pm_rush,2173.7295081967213,Lechmere,Green Line
+818,2016,pm_rush,4714.421487603306,North Station,Green Line
+819,2016,pm_rush,9084.713114754099,Park Street,Green Line
+820,2016,pm_rush,1368.9562841530055,Prudential,Green Line
+821,2016,pm_rush,627.0628415300547,Riverside,Green Line
+822,2016,pm_rush,465.78688524590166,Science Park,Green Line
+823,2016,pm_rush,506.44109589041096,Symphony,Green Line
+824,2016,pm_rush,1015.297520661157,Assembly,Orange Line
+825,2016,pm_rush,6453.901369863013,Back Bay,Orange Line
+826,2016,pm_rush,2322.2950819672133,Chinatown,Orange Line
+827,2016,pm_rush,1372.1685082872928,Community College,Orange Line
+828,2016,pm_rush,12420.688524590163,Downtown Crossing,Orange Line
+829,2016,pm_rush,2317.0552486187844,Forest Hills,Orange Line
+830,2016,pm_rush,636.1377410468319,Green Street,Orange Line
+831,2016,pm_rush,4143.31693989071,Haymarket,Orange Line
+832,2016,pm_rush,1215.0138504155125,Jackson Square,Orange Line
+833,2016,pm_rush,1614.5494505494505,Malden Center,Orange Line
+834,2016,pm_rush,1987.1239669421489,Massachusetts Avenue,Orange Line
+835,2016,pm_rush,4714.421487603306,North Station,Orange Line
+836,2016,pm_rush,734.9497206703911,Oak Grove,Orange Line
+837,2016,pm_rush,1269.2944444444445,Roxbury Crossing,Orange Line
+838,2016,pm_rush,3533.3315068493152,Ruggles,Orange Line
+839,2016,pm_rush,7453.150273224043,State Street,Orange Line
+840,2016,pm_rush,592.5409836065573,Stony Brook,Orange Line
+841,2016,pm_rush,2124.464285714286,Sullivan Square,Orange Line
+842,2016,pm_rush,2466.464480874317,Tufts Medical Center,Orange Line
+843,2016,pm_rush,1208.9586776859503,Wellington,Orange Line
+844,2016,pm_rush,2344.276712328767,Alewife,Red Line
+845,2016,pm_rush,1496.1092896174864,Andrew,Red Line
+846,2016,pm_rush,1456.22131147541,Ashmont,Red Line
+847,2016,pm_rush,734.6610644257703,Braintree,Red Line
+848,2016,pm_rush,2028.3715846994535,Broadway,Red Line
+849,2016,pm_rush,4705.6557377049185,Central,Red Line
+850,2016,pm_rush,2116.813186813187,Davis,Red Line
+851,2016,pm_rush,12420.688524590163,Downtown Crossing,Red Line
+852,2016,pm_rush,977.7961432506887,Fields Corner,Red Line
+853,2016,pm_rush,7710.054644808743,Harvard,Red Line
+854,2016,pm_rush,2742.122950819672,JFK/UMass,Red Line
+855,2016,pm_rush,7846.939058171745,Kendall/MIT,Red Line
+856,2016,pm_rush,1219.5136612021859,North Quincy,Red Line
+857,2016,pm_rush,9084.713114754099,Park Street,Red Line
+858,2016,pm_rush,1502.9615384615386,Porter,Red Line
+859,2016,pm_rush,674.6565096952909,Quincy Adams,Red Line
+860,2016,pm_rush,1248.3434065934066,Quincy Center,Red Line
+861,2016,pm_rush,434.37704918032784,Savin Hill,Red Line
+862,2016,pm_rush,347.8722222222222,Shawmut,Red Line
+863,2016,pm_rush,9969.874316939891,South Station,Red Line
+864,2016,pm_rush,497.34072022160666,Wollaston,Red Line
+865,2017,pm_rush,1711.2630136986302,Airport,Blue Line
+866,2017,pm_rush,2455.8438356164384,Aquarium,Blue Line
+867,2017,pm_rush,465.4,Beachmont,Blue Line
+868,2017,pm_rush,965.693820224719,Bowdoin,Blue Line
+869,2017,pm_rush,3603.145205479452,Government Center,Blue Line
+870,2017,pm_rush,2216.876712328767,Maverick,Blue Line
+871,2017,pm_rush,707.7397260273973,Orient Heights,Blue Line
+872,2017,pm_rush,624.4109589041096,Revere Beach,Blue Line
+873,2017,pm_rush,6950.290410958904,State Street,Blue Line
+874,2017,pm_rush,130.2445054945055,Suffolk Downs,Blue Line
+875,2017,pm_rush,848.4876712328767,Wonderland,Blue Line
+876,2017,pm_rush,467.1972602739726,Wood Island,Blue Line
+877,2017,pm_rush,3380.6164383561645,Arlington,Green Line
+878,2017,pm_rush,2208.1205479452055,Boylston,Green Line
+879,2017,pm_rush,5412.671232876713,Copley,Green Line
+880,2017,pm_rush,3603.145205479452,Government Center,Green Line
+881,2017,pm_rush,3753.1753424657536,Haymarket,Green Line
+882,2017,pm_rush,3047.131506849315,Hynes Convention Center,Green Line
+883,2017,pm_rush,2871.8164383561643,Kenmore,Green Line
+884,2017,pm_rush,2045.3342465753424,Lechmere,Green Line
+885,2017,pm_rush,4474.602739726028,North Station,Green Line
+886,2017,pm_rush,8215.016438356164,Park Street,Green Line
+887,2017,pm_rush,1464.3287671232877,Prudential,Green Line
+888,2017,pm_rush,593.7768595041322,Riverside,Green Line
+889,2017,pm_rush,483.35890410958905,Science Park,Green Line
+890,2017,pm_rush,507.72328767123287,Symphony,Green Line
+891,2017,pm_rush,1357.1346153846155,Assembly,Orange Line
+892,2017,pm_rush,6176.679452054795,Back Bay,Orange Line
+893,2017,pm_rush,2265.109589041096,Chinatown,Orange Line
+894,2017,pm_rush,1292.9068493150685,Community College,Orange Line
+895,2017,pm_rush,12099.846575342466,Downtown Crossing,Orange Line
+896,2017,pm_rush,2217.0477528089887,Forest Hills,Orange Line
+897,2017,pm_rush,592.7837078651686,Green Street,Orange Line
+898,2017,pm_rush,3753.1753424657536,Haymarket,Orange Line
+899,2017,pm_rush,1161.2219101123596,Jackson Square,Orange Line
+900,2017,pm_rush,1549.9610027855153,Malden Center,Orange Line
+901,2017,pm_rush,1929.3168044077136,Massachusetts Avenue,Orange Line
+902,2017,pm_rush,4474.602739726028,North Station,Orange Line
+903,2017,pm_rush,746.9090909090909,Oak Grove,Orange Line
+904,2017,pm_rush,1208.7106741573034,Roxbury Crossing,Orange Line
+905,2017,pm_rush,3456.104109589041,Ruggles,Orange Line
+906,2017,pm_rush,6950.290410958904,State Street,Orange Line
+907,2017,pm_rush,596.5041322314049,Stony Brook,Orange Line
+908,2017,pm_rush,2082.5753424657532,Sullivan Square,Orange Line
+909,2017,pm_rush,2487.745205479452,Tufts Medical Center,Orange Line
+910,2017,pm_rush,1193.6785714285713,Wellington,Orange Line
+911,2017,pm_rush,2319.595041322314,Alewife,Red Line
+912,2017,pm_rush,1456.6712328767123,Andrew,Red Line
+913,2017,pm_rush,1379.7479452054795,Ashmont,Red Line
+914,2017,pm_rush,734.0980392156863,Braintree,Red Line
+915,2017,pm_rush,1975.4054794520548,Broadway,Red Line
+916,2017,pm_rush,4904.602739726028,Central,Red Line
+917,2017,pm_rush,2040.1818181818182,Davis,Red Line
+918,2017,pm_rush,12099.846575342466,Downtown Crossing,Red Line
+919,2017,pm_rush,927.3553719008264,Fields Corner,Red Line
+920,2017,pm_rush,7253.4684931506845,Harvard,Red Line
+921,2017,pm_rush,2567.9506849315067,JFK/UMass,Red Line
+922,2017,pm_rush,8120.9943342776205,Kendall/MIT,Red Line
+923,2017,pm_rush,1190.9698630136986,North Quincy,Red Line
+924,2017,pm_rush,8215.016438356164,Park Street,Red Line
+925,2017,pm_rush,1438.2011019283746,Porter,Red Line
+926,2017,pm_rush,649.207756232687,Quincy Adams,Red Line
+927,2017,pm_rush,1215.6005509641873,Quincy Center,Red Line
+928,2017,pm_rush,397.758904109589,Savin Hill,Red Line
+929,2017,pm_rush,322.5576923076923,Shawmut,Red Line
+930,2017,pm_rush,9791.739726027397,South Station,Red Line
+931,2017,pm_rush,451.8,Wollaston,Red Line
+932,2018,pm_rush,1759.704109589041,Airport,Blue Line
+933,2018,pm_rush,2459.186301369863,Aquarium,Blue Line
+934,2018,pm_rush,446.0712328767123,Beachmont,Blue Line
+935,2018,pm_rush,956.0767123287671,Bowdoin,Blue Line
+936,2018,pm_rush,3719.1808219178083,Government Center,Blue Line
+937,2018,pm_rush,2342.186301369863,Maverick,Blue Line
+938,2018,pm_rush,697.241095890411,Orient Heights,Blue Line
+939,2018,pm_rush,575.2356164383561,Revere Beach,Blue Line
+940,2018,pm_rush,6646.627397260274,State Street,Blue Line
+941,2018,pm_rush,104.06027397260274,Suffolk Downs,Blue Line
+942,2018,pm_rush,865.1232876712329,Wonderland,Blue Line
+943,2018,pm_rush,459.26575342465753,Wood Island,Blue Line
+944,2018,pm_rush,3258.041095890411,Arlington,Green Line
+945,2018,pm_rush,2230.0328767123287,Boylston,Green Line
+946,2018,pm_rush,5303.868493150685,Copley,Green Line
+947,2018,pm_rush,3719.1808219178083,Government Center,Green Line
+948,2018,pm_rush,3616.3397260273973,Haymarket,Green Line
+949,2018,pm_rush,2968.0465753424655,Hynes Convention Center,Green Line
+950,2018,pm_rush,2833.227397260274,Kenmore,Green Line
+951,2018,pm_rush,2115.5013698630137,Lechmere,Green Line
+952,2018,pm_rush,4563.871232876712,North Station,Green Line
+953,2018,pm_rush,7656.260273972603,Park Street,Green Line
+954,2018,pm_rush,1460.1671232876713,Prudential,Green Line
+955,2018,pm_rush,546.9390581717452,Riverside,Green Line
+956,2018,pm_rush,431.10497237569064,Science Park,Green Line
+957,2018,pm_rush,507.6931506849315,Symphony,Green Line
+958,2018,pm_rush,1503.3636363636363,Assembly,Orange Line
+959,2018,pm_rush,6323.498630136986,Back Bay,Orange Line
+960,2018,pm_rush,2337.895890410959,Chinatown,Orange Line
+961,2018,pm_rush,1253.131506849315,Community College,Orange Line
+962,2018,pm_rush,11706.279452054794,Downtown Crossing,Orange Line
+963,2018,pm_rush,2064.9826589595377,Forest Hills,Orange Line
+964,2018,pm_rush,542.6350574712644,Green Street,Orange Line
+965,2018,pm_rush,3616.3397260273973,Haymarket,Orange Line
+966,2018,pm_rush,1173.7002801120448,Jackson Square,Orange Line
+967,2018,pm_rush,1527.2292817679559,Malden Center,Orange Line
+968,2018,pm_rush,1879.236111111111,Massachusetts Avenue,Orange Line
+969,2018,pm_rush,4563.871232876712,North Station,Orange Line
+970,2018,pm_rush,723.1845730027549,Oak Grove,Orange Line
+971,2018,pm_rush,1220.6629213483145,Roxbury Crossing,Orange Line
+972,2018,pm_rush,3387.185595567867,Ruggles,Orange Line
+973,2018,pm_rush,6646.627397260274,State Street,Orange Line
+974,2018,pm_rush,585.0881542699725,Stony Brook,Orange Line
+975,2018,pm_rush,2064.7424657534248,Sullivan Square,Orange Line
+976,2018,pm_rush,2444.895890410959,Tufts Medical Center,Orange Line
+977,2018,pm_rush,1180.1625344352617,Wellington,Orange Line
+978,2018,pm_rush,2235.9890410958906,Alewife,Red Line
+979,2018,pm_rush,1427.2301369863014,Andrew,Red Line
+980,2018,pm_rush,1383.7232876712328,Ashmont,Red Line
+981,2018,pm_rush,655.1264367816092,Braintree,Red Line
+982,2018,pm_rush,1823.6,Broadway,Red Line
+983,2018,pm_rush,5004.0657534246575,Central,Red Line
+984,2018,pm_rush,1926.1361111111112,Davis,Red Line
+985,2018,pm_rush,11706.279452054794,Downtown Crossing,Red Line
+986,2018,pm_rush,927.4849315068493,Fields Corner,Red Line
+987,2018,pm_rush,6802.8027397260275,Harvard,Red Line
+988,2018,pm_rush,2417.5178082191783,JFK/UMass,Red Line
+989,2018,pm_rush,8106.035714285715,Kendall/MIT,Red Line
+990,2018,pm_rush,1397.4328767123288,North Quincy,Red Line
+991,2018,pm_rush,7656.260273972603,Park Street,Red Line
+992,2018,pm_rush,1392.5125348189415,Porter,Red Line
+993,2018,pm_rush,570.5346260387812,Quincy Adams,Red Line
+994,2018,pm_rush,999.7265193370166,Quincy Center,Red Line
+995,2018,pm_rush,364.3972602739726,Savin Hill,Red Line
+996,2018,pm_rush,299.35068493150686,Shawmut,Red Line
+997,2018,pm_rush,9430.16712328767,South Station,Red Line
+998,2018,pm_rush,214.85714285714286,Wollaston,Red Line
+999,2019,pm_rush,1797.0876712328768,Airport,Blue Line
+1000,2019,pm_rush,2461.9534246575345,Aquarium,Blue Line
+1001,2019,pm_rush,463.030303030303,Beachmont,Blue Line
+1002,2019,pm_rush,1047.849315068493,Bowdoin,Blue Line
+1003,2019,pm_rush,3800.2747252747254,Government Center,Blue Line
+1004,2019,pm_rush,2421.2082191780823,Maverick,Blue Line
+1005,2019,pm_rush,724.9724517906336,Orient Heights,Blue Line
+1006,2019,pm_rush,570.7823691460055,Revere Beach,Blue Line
+1007,2019,pm_rush,6598.394520547945,State Street,Blue Line
+1008,2019,pm_rush,132.97513812154696,Suffolk Downs,Blue Line
+1009,2019,pm_rush,847.5261707988981,Wonderland,Blue Line
+1010,2019,pm_rush,445.9423076923077,Wood Island,Blue Line
+1011,2019,pm_rush,3287.4219178082194,Arlington,Green Line
+1012,2019,pm_rush,2127.142465753425,Boylston,Green Line
+1013,2019,pm_rush,5307.732954545455,Copley,Green Line
+1014,2019,pm_rush,3800.2747252747254,Government Center,Green Line
+1015,2019,pm_rush,3414.346368715084,Haymarket,Green Line
+1016,2019,pm_rush,2971.8931506849317,Hynes Convention Center,Green Line
+1017,2019,pm_rush,2733.230136986301,Kenmore,Green Line
+1018,2019,pm_rush,2034.1780821917807,Lechmere,Green Line
+1019,2019,pm_rush,4847.134246575342,North Station,Green Line
+1020,2019,pm_rush,7976.950684931507,Park Street,Green Line
+1021,2019,pm_rush,1427.0191780821917,Prudential,Green Line
+1022,2019,pm_rush,466.72651933701655,Riverside,Green Line
+1023,2019,pm_rush,394.8434065934066,Science Park,Green Line
+1024,2019,pm_rush,535.5972602739726,Symphony,Green Line
+1025,2019,pm_rush,1733.7677053824364,Assembly,Orange Line
+1026,2019,pm_rush,6595.793201133144,Back Bay,Orange Line
+1027,2019,pm_rush,2292.9475138121547,Chinatown,Orange Line
+1028,2019,pm_rush,1207.2314049586778,Community College,Orange Line
+1029,2019,pm_rush,11556.277777777777,Downtown Crossing,Orange Line
+1030,2019,pm_rush,2022.448275862069,Forest Hills,Orange Line
+1031,2019,pm_rush,530.4508670520231,Green Street,Orange Line
+1032,2019,pm_rush,3414.346368715084,Haymarket,Orange Line
+1033,2019,pm_rush,1098.9884057971014,Jackson Square,Orange Line
+1034,2019,pm_rush,1504.4957507082154,Malden Center,Orange Line
+1035,2019,pm_rush,1936.0568181818182,Massachusetts Avenue,Orange Line
+1036,2019,pm_rush,4847.134246575342,North Station,Orange Line
+1037,2019,pm_rush,687.9490084985836,Oak Grove,Orange Line
+1038,2019,pm_rush,1267.3760932944606,Roxbury Crossing,Orange Line
+1039,2019,pm_rush,3466.598870056497,Ruggles,Orange Line
+1040,2019,pm_rush,6598.394520547945,State Street,Orange Line
+1041,2019,pm_rush,598.1841359773371,Stony Brook,Orange Line
+1042,2019,pm_rush,2024.2096317280452,Sullivan Square,Orange Line
+1043,2019,pm_rush,2540.5835694050993,Tufts Medical Center,Orange Line
+1044,2019,pm_rush,1357.1158192090395,Wellington,Orange Line
+1045,2019,pm_rush,2242.369014084507,Alewife,Red Line
+1046,2019,pm_rush,1360.741573033708,Andrew,Red Line
+1047,2019,pm_rush,1329.0391061452515,Ashmont,Red Line
+1048,2019,pm_rush,590.3137254901961,Braintree,Red Line
+1049,2019,pm_rush,1782.18487394958,Broadway,Red Line
+1050,2019,pm_rush,5117.659217877095,Central,Red Line
+1051,2019,pm_rush,1886.7191977077364,Davis,Red Line
+1052,2019,pm_rush,11556.277777777777,Downtown Crossing,Red Line
+1053,2019,pm_rush,942.6134453781513,Fields Corner,Red Line
+1054,2019,pm_rush,6546.17955801105,Harvard,Red Line
+1055,2019,pm_rush,2455.086592178771,JFK/UMass,Red Line
+1056,2019,pm_rush,8562.66106442577,Kendall/MIT,Red Line
+1057,2019,pm_rush,1172.623595505618,North Quincy,Red Line
+1058,2019,pm_rush,7976.950684931507,Park Street,Red Line
+1059,2019,pm_rush,1451.650289017341,Porter,Red Line
+1060,2019,pm_rush,513.1643059490085,Quincy Adams,Red Line
+1061,2019,pm_rush,1001.7450980392157,Quincy Center,Red Line
+1062,2019,pm_rush,346.87394957983196,Savin Hill,Red Line
+1063,2019,pm_rush,269.46498599439775,Shawmut,Red Line
+1064,2019,pm_rush,9404.941504178272,South Station,Red Line
+1065,2019,pm_rush,365.7923076923077,Wollaston,Red Line
+1066,2020,pm_rush,792.0854700854701,Airport,Blue Line
+1067,2020,pm_rush,763.4814814814815,Aquarium,Blue Line
+1068,2020,pm_rush,282.39080459770116,Beachmont,Blue Line
+1069,2020,pm_rush,494.37606837606836,Bowdoin,Blue Line
+1070,2020,pm_rush,1059.9398907103825,Government Center,Blue Line
+1071,2020,pm_rush,1192.6260623229462,Maverick,Blue Line
+1072,2020,pm_rush,362.3352435530086,Orient Heights,Blue Line
+1073,2020,pm_rush,320.9683908045977,Revere Beach,Blue Line
+1074,2020,pm_rush,2170.948087431694,State Street,Blue Line
+1075,2020,pm_rush,69.46109510086455,Suffolk Downs,Blue Line
+1076,2020,pm_rush,449.8847262247839,Wonderland,Blue Line
+1077,2020,pm_rush,208.62011173184356,Wood Island,Blue Line
+1078,2020,pm_rush,890.986301369863,Arlington,Green Line
+1079,2020,pm_rush,698.4535519125683,Boylston,Green Line
+1080,2020,pm_rush,1526.3483146067415,Copley,Green Line
+1081,2020,pm_rush,1059.9398907103825,Government Center,Green Line
+1082,2020,pm_rush,1147.6256983240223,Haymarket,Green Line
+1083,2020,pm_rush,913.2486338797814,Hynes Convention Center,Green Line
+1084,2020,pm_rush,785.0300546448087,Kenmore,Green Line
+1085,2020,pm_rush,998.8263888888889,Lechmere,Green Line
+1086,2020,pm_rush,1803.1775956284152,North Station,Green Line
+1087,2020,pm_rush,2205.084699453552,Park Street,Green Line
+1088,2020,pm_rush,449.1666666666667,Prudential,Green Line
+1089,2020,pm_rush,109.74444444444444,Riverside,Green Line
+1090,2020,pm_rush,150.16901408450704,Science Park,Green Line
+1091,2020,pm_rush,192.5147928994083,Symphony,Green Line
+1092,2020,pm_rush,558.370786516854,Assembly,Orange Line
+1093,2020,pm_rush,1962.8603351955308,Back Bay,Orange Line
+1094,2020,pm_rush,734.6225895316804,Chinatown,Orange Line
+1095,2020,pm_rush,391.34806629834253,Community College,Orange Line
+1096,2020,pm_rush,3586.243169398907,Downtown Crossing,Orange Line
+1097,2020,pm_rush,917.3641456582633,Forest Hills,Orange Line
+1098,2020,pm_rush,181.45224719101122,Green Street,Orange Line
+1099,2020,pm_rush,1147.6256983240223,Haymarket,Orange Line
+1100,2020,pm_rush,519.436974789916,Jackson Square,Orange Line
+1101,2020,pm_rush,581.0366197183099,Malden Center,Orange Line
+1102,2020,pm_rush,751.626404494382,Massachusetts Avenue,Orange Line
+1103,2020,pm_rush,1803.1775956284152,North Station,Orange Line
+1104,2020,pm_rush,220.8622950819672,Oak Grove,Orange Line
+1105,2020,pm_rush,462.4915730337079,Roxbury Crossing,Orange Line
+1106,2020,pm_rush,1236.2676056338028,Ruggles,Orange Line
+1107,2020,pm_rush,2170.948087431694,State Street,Orange Line
+1108,2020,pm_rush,210.75280898876406,Stony Brook,Orange Line
+1109,2020,pm_rush,810.8426966292135,Sullivan Square,Orange Line
+1110,2020,pm_rush,1011.0840336134454,Tufts Medical Center,Orange Line
+1111,2020,pm_rush,523.4305555555555,Wellington,Orange Line
+1112,2020,pm_rush,652.5397260273973,Alewife,Red Line
+1113,2020,pm_rush,648.9153005464481,Andrew,Red Line
+1114,2020,pm_rush,652.4863387978143,Ashmont,Red Line
+1115,2020,pm_rush,234.06478873239436,Braintree,Red Line
+1116,2020,pm_rush,654.0300546448087,Broadway,Red Line
+1117,2020,pm_rush,1698.948087431694,Central,Red Line
+1118,2020,pm_rush,610.7170868347339,Davis,Red Line
+1119,2020,pm_rush,3586.243169398907,Downtown Crossing,Red Line
+1120,2020,pm_rush,447.5163934426229,Fields Corner,Red Line
+1121,2020,pm_rush,1861.207650273224,Harvard,Red Line
+1122,2020,pm_rush,743.7103825136612,JFK/UMass,Red Line
+1123,2020,pm_rush,2092.751366120219,Kendall/MIT,Red Line
+1124,2020,pm_rush,333.6912568306011,North Quincy,Red Line
+1125,2020,pm_rush,2205.084699453552,Park Street,Red Line
+1126,2020,pm_rush,480.07932011331445,Porter,Red Line
+1127,2020,pm_rush,175.50833333333333,Quincy Adams,Red Line
+1128,2020,pm_rush,486.827868852459,Quincy Center,Red Line
+1129,2020,pm_rush,155.78688524590163,Savin Hill,Red Line
+1130,2020,pm_rush,116.2027397260274,Shawmut,Red Line
+1131,2020,pm_rush,2494.617486338798,South Station,Red Line
+1132,2020,pm_rush,156.46448087431693,Wollaston,Red Line
+1133,2021,pm_rush,1052.8794520547945,Airport,Blue Line
+1134,2021,pm_rush,946.2575342465753,Aquarium,Blue Line
+1135,2021,pm_rush,337.91506849315067,Beachmont,Blue Line
+1136,2021,pm_rush,523.6208791208791,Bowdoin,Blue Line
+1137,2021,pm_rush,1106.5671232876712,Government Center,Blue Line
+1138,2021,pm_rush,1472.5424657534247,Maverick,Blue Line
+1139,2021,pm_rush,427.3424657534247,Orient Heights,Blue Line
+1140,2021,pm_rush,375.36986301369865,Revere Beach,Blue Line
+1141,2021,pm_rush,2004.8109589041096,State Street,Blue Line
+1142,2021,pm_rush,65.8082191780822,Suffolk Downs,Blue Line
+1143,2021,pm_rush,539.3890410958904,Wonderland,Blue Line
+1144,2021,pm_rush,257.4438356164384,Wood Island,Blue Line
+1145,2021,pm_rush,862.9041095890411,Arlington,Green Line
+1146,2021,pm_rush,899.7643835616439,Boylston,Green Line
+1147,2021,pm_rush,2007.3698630136987,Copley,Green Line
+1148,2021,pm_rush,1106.5671232876712,Government Center,Green Line
+1149,2021,pm_rush,1481.4794520547946,Haymarket,Green Line
+1150,2021,pm_rush,1361.5068493150684,Hynes Convention Center,Green Line
+1151,2021,pm_rush,1290.1287671232876,Kenmore,Green Line
+1152,2021,pm_rush,2163.7835616438356,North Station,Green Line
+1153,2021,pm_rush,2255.082191780822,Park Street,Green Line
+1154,2021,pm_rush,594.1753424657534,Prudential,Green Line
+1155,2021,pm_rush,132.71787709497207,Riverside,Green Line
+1156,2021,pm_rush,232.6868131868132,Symphony,Green Line
+1157,2021,pm_rush,615.950146627566,Assembly,Orange Line
+1158,2021,pm_rush,1802.5369863013698,Back Bay,Orange Line
+1159,2021,pm_rush,833.6493150684931,Chinatown,Orange Line
+1160,2021,pm_rush,380.1287671232877,Community College,Orange Line
+1161,2021,pm_rush,3426.2876712328766,Downtown Crossing,Orange Line
+1162,2021,pm_rush,1036.482191780822,Forest Hills,Orange Line
+1163,2021,pm_rush,234.375,Green Street,Orange Line
+1164,2021,pm_rush,1481.4794520547946,Haymarket,Orange Line
+1165,2021,pm_rush,610.260989010989,Jackson Square,Orange Line
+1166,2021,pm_rush,691.535294117647,Malden Center,Orange Line
+1167,2021,pm_rush,870.7041095890411,Massachusetts Avenue,Orange Line
+1168,2021,pm_rush,2163.7835616438356,North Station,Orange Line
+1169,2021,pm_rush,273.75223880597014,Oak Grove,Orange Line
+1170,2021,pm_rush,577.1542699724517,Roxbury Crossing,Orange Line
+1171,2021,pm_rush,1349.1397260273973,Ruggles,Orange Line
+1172,2021,pm_rush,2004.8109589041096,State Street,Orange Line
+1173,2021,pm_rush,287.5452054794521,Stony Brook,Orange Line
+1174,2021,pm_rush,1020.6301369863014,Sullivan Square,Orange Line
+1175,2021,pm_rush,1107.813698630137,Tufts Medical Center,Orange Line
+1176,2021,pm_rush,501.7348703170029,Wellington,Orange Line
+1177,2021,pm_rush,781.0769230769231,Alewife,Red Line
+1178,2021,pm_rush,755.8272980501392,Andrew,Red Line
+1179,2021,pm_rush,736.4862637362637,Ashmont,Red Line
+1180,2021,pm_rush,304.8958904109589,Braintree,Red Line
+1181,2021,pm_rush,779.7065527065527,Broadway,Red Line
+1182,2021,pm_rush,1951.2986301369863,Central,Red Line
+1183,2021,pm_rush,890.2164383561644,Davis,Red Line
+1184,2021,pm_rush,3426.2876712328766,Downtown Crossing,Red Line
+1185,2021,pm_rush,514.0055096418732,Fields Corner,Red Line
+1186,2021,pm_rush,2245.1726027397262,Harvard,Red Line
+1187,2021,pm_rush,891.1487603305785,JFK/UMass,Red Line
+1188,2021,pm_rush,1942.5534246575342,Kendall/MIT,Red Line
+1189,2021,pm_rush,331.47945205479454,North Quincy,Red Line
+1190,2021,pm_rush,2255.082191780822,Park Street,Red Line
+1191,2021,pm_rush,692.534435261708,Porter,Red Line
+1192,2021,pm_rush,215.4849315068493,Quincy Adams,Red Line
+1193,2021,pm_rush,518.4410958904109,Quincy Center,Red Line
+1194,2021,pm_rush,203.1068493150685,Savin Hill,Red Line
+1195,2021,pm_rush,149.25068870523415,Shawmut,Red Line
+1196,2021,pm_rush,2061.7150684931507,South Station,Red Line
+1197,2021,pm_rush,194.07397260273973,Wollaston,Red Line
+1198,2022,pm_rush,1381.3424657534247,Airport,Blue Line
+1199,2022,pm_rush,1169.377840909091,Aquarium,Blue Line
+1200,2022,pm_rush,408.63505747126436,Beachmont,Blue Line
+1201,2022,pm_rush,648.4521739130435,Bowdoin,Blue Line
+1202,2022,pm_rush,2002.1026392961876,Government Center,Blue Line
+1203,2022,pm_rush,1789.5790960451977,Maverick,Blue Line
+1204,2022,pm_rush,598.9068493150685,Orient Heights,Blue Line
+1205,2022,pm_rush,446.63793103448273,Revere Beach,Blue Line
+1206,2022,pm_rush,2857.654794520548,State Street,Blue Line
+1207,2022,pm_rush,62.55907780979827,Suffolk Downs,Blue Line
+1208,2022,pm_rush,528.9090909090909,Wonderland,Blue Line
+1209,2022,pm_rush,321.33516483516485,Wood Island,Blue Line
+1210,2022,pm_rush,1393.3835616438357,Arlington,Green Line
+1211,2022,pm_rush,1381.1424657534246,Boylston,Green Line
+1212,2022,pm_rush,3369.3994490358127,Copley,Green Line
+1213,2022,pm_rush,2002.1026392961876,Government Center,Green Line
+1214,2022,pm_rush,1569.3479452054794,Haymarket,Green Line
+1215,2022,pm_rush,2134.654794520548,Hynes Convention Center,Green Line
+1216,2022,pm_rush,1727.1808219178083,Kenmore,Green Line
+1217,2022,pm_rush,701.9069767441861,Lechmere,Green Line
+1218,2022,pm_rush,2884.820588235294,North Station,Green Line
+1219,2022,pm_rush,3579.5342465753424,Park Street,Green Line
+1220,2022,pm_rush,906.5649717514125,Prudential,Green Line
+1221,2022,pm_rush,205.14697406340056,Riverside,Green Line
+1222,2022,pm_rush,239.85239852398524,Science Park,Green Line
+1223,2022,pm_rush,340.514367816092,Symphony,Green Line
+1224,2022,pm_rush,878.3247126436781,Assembly,Orange Line
+1225,2022,pm_rush,2463.880681818182,Back Bay,Orange Line
+1226,2022,pm_rush,1031.179190751445,Chinatown,Orange Line
+1227,2022,pm_rush,543.4289940828403,Community College,Orange Line
+1228,2022,pm_rush,4350.728767123288,Downtown Crossing,Orange Line
+1229,2022,pm_rush,1202.5278592375366,Forest Hills,Orange Line
+1230,2022,pm_rush,331.3421052631579,Green Street,Orange Line
+1231,2022,pm_rush,1569.3479452054794,Haymarket,Orange Line
+1232,2022,pm_rush,631.3390804597701,Jackson Square,Orange Line
+1233,2022,pm_rush,820.5661971830986,Malden Center,Orange Line
+1234,2022,pm_rush,956.2942857142857,Massachusetts Avenue,Orange Line
+1235,2022,pm_rush,2884.820588235294,North Station,Orange Line
+1236,2022,pm_rush,414.4183976261128,Oak Grove,Orange Line
+1237,2022,pm_rush,688.5102040816327,Roxbury Crossing,Orange Line
+1238,2022,pm_rush,1702.7893258426966,Ruggles,Orange Line
+1239,2022,pm_rush,2857.654794520548,State Street,Orange Line
+1240,2022,pm_rush,373.94198895027625,Stony Brook,Orange Line
+1241,2022,pm_rush,1061.9164265129682,Sullivan Square,Orange Line
+1242,2022,pm_rush,1322.7232142857142,Tufts Medical Center,Orange Line
+1243,2022,pm_rush,654.5071225071225,Wellington,Orange Line
+1244,2022,pm_rush,1055.7134986225894,Alewife,Red Line
+1245,2022,pm_rush,864.8181818181819,Andrew,Red Line
+1246,2022,pm_rush,806.3424657534247,Ashmont,Red Line
+1247,2022,pm_rush,394.41046831955924,Braintree,Red Line
+1248,2022,pm_rush,1077.774647887324,Broadway,Red Line
+1249,2022,pm_rush,2650.3186813186812,Central,Red Line
+1250,2022,pm_rush,1140.342618384401,Davis,Red Line
+1251,2022,pm_rush,4350.728767123288,Downtown Crossing,Red Line
+1252,2022,pm_rush,574.8587257617728,Fields Corner,Red Line
+1253,2022,pm_rush,3528.5274725274726,Harvard,Red Line
+1254,2022,pm_rush,1360.0527777777777,JFK/UMass,Red Line
+1255,2022,pm_rush,3502.4364640883978,Kendall/MIT,Red Line
+1256,2022,pm_rush,485.6465753424658,North Quincy,Red Line
+1257,2022,pm_rush,3579.5342465753424,Park Street,Red Line
+1258,2022,pm_rush,941.5431754874652,Porter,Red Line
+1259,2022,pm_rush,271.26038781163436,Quincy Adams,Red Line
+1260,2022,pm_rush,607.641095890411,Quincy Center,Red Line
+1261,2022,pm_rush,218.10555555555555,Savin Hill,Red Line
+1262,2022,pm_rush,170.98066298342542,Shawmut,Red Line
+1263,2022,pm_rush,3686.6931506849314,South Station,Red Line
+1264,2022,pm_rush,201.53443526170798,Wollaston,Red Line
+1265,2023,pm_rush,1786.490410958904,Airport,Blue Line
+1266,2023,pm_rush,1516.4246575342465,Aquarium,Blue Line
+1267,2023,pm_rush,504.3753424657534,Beachmont,Blue Line
+1268,2023,pm_rush,804.6904109589041,Bowdoin,Blue Line
+1269,2023,pm_rush,2494.2961876832846,Government Center,Blue Line
+1270,2023,pm_rush,2185.8465753424657,Maverick,Blue Line
+1271,2023,pm_rush,677.7355371900826,Orient Heights,Blue Line
+1272,2023,pm_rush,570.358904109589,Revere Beach,Blue Line
+1273,2023,pm_rush,3713.53698630137,State Street,Blue Line
+1274,2023,pm_rush,109.21643835616439,Suffolk Downs,Blue Line
+1275,2023,pm_rush,757.6657534246575,Wonderland,Blue Line
+1276,2023,pm_rush,388.83287671232875,Wood Island,Blue Line
+1277,2023,pm_rush,1566.7893258426966,Arlington,Green Line
+1278,2023,pm_rush,1484.9942857142858,Boylston,Green Line
+1279,2023,pm_rush,3470.7387640449438,Copley,Green Line
+1280,2023,pm_rush,2494.2961876832846,Government Center,Green Line
+1281,2023,pm_rush,1528.4182389937107,Haymarket,Green Line
+1282,2023,pm_rush,2307.805633802817,Hynes Convention Center,Green Line
+1283,2023,pm_rush,1642.6601123595506,Kenmore,Green Line
+1284,2023,pm_rush,673.8729281767955,Lechmere,Green Line
+1285,2023,pm_rush,3053.8016997167138,North Station,Green Line
+1286,2023,pm_rush,3806.1267217630852,Park Street,Green Line
+1287,2023,pm_rush,951.5333333333333,Prudential,Green Line
+1288,2023,pm_rush,248.0803324099723,Riverside,Green Line
+1289,2023,pm_rush,339.52908587257616,Science Park,Green Line
+1290,2023,pm_rush,326.3679775280899,Symphony,Green Line
+1291,2023,pm_rush,1031.131506849315,Assembly,Orange Line
+1292,2023,pm_rush,2954.052777777778,Back Bay,Orange Line
+1293,2023,pm_rush,1189.1808219178083,Chinatown,Orange Line
+1294,2023,pm_rush,714.1671232876712,Community College,Orange Line
+1295,2023,pm_rush,4686.087671232876,Downtown Crossing,Orange Line
+1296,2023,pm_rush,1132.2082191780821,Forest Hills,Orange Line
+1297,2023,pm_rush,378.3013698630137,Green Street,Orange Line
+1298,2023,pm_rush,1528.4182389937107,Haymarket,Orange Line
+1299,2023,pm_rush,628.9287671232877,Jackson Square,Orange Line
+1300,2023,pm_rush,844.121546961326,Malden Center,Orange Line
+1301,2023,pm_rush,1026.5521978021977,Massachusetts Avenue,Orange Line
+1302,2023,pm_rush,3053.8016997167138,North Station,Orange Line
+1303,2023,pm_rush,469.8767123287671,Oak Grove,Orange Line
+1304,2023,pm_rush,756.5260273972602,Roxbury Crossing,Orange Line
+1305,2023,pm_rush,1613.782967032967,Ruggles,Orange Line
+1306,2023,pm_rush,3713.53698630137,State Street,Orange Line
+1307,2023,pm_rush,443.613698630137,Stony Brook,Orange Line
+1308,2023,pm_rush,1054.8347107438017,Sullivan Square,Orange Line
+1309,2023,pm_rush,1401.1939058171745,Tufts Medical Center,Orange Line
+1310,2023,pm_rush,657.4505494505495,Wellington,Orange Line
+1311,2023,pm_rush,989.8354430379746,Alewife,Red Line
+1312,2023,pm_rush,805.4129213483146,Andrew,Red Line
+1313,2023,pm_rush,668.2200557103064,Ashmont,Red Line
+1314,2023,pm_rush,310.5129682997118,Braintree,Red Line
+1315,2023,pm_rush,1057.1942857142858,Broadway,Red Line
+1316,2023,pm_rush,2383.358904109589,Central,Red Line
+1317,2023,pm_rush,928.3490304709142,Davis,Red Line
+1318,2023,pm_rush,4686.087671232876,Downtown Crossing,Red Line
+1319,2023,pm_rush,440.13235294117646,Fields Corner,Red Line
+1320,2023,pm_rush,3507.4570637119114,Harvard,Red Line
+1321,2023,pm_rush,1239.8753623188406,JFK/UMass,Red Line
+1322,2023,pm_rush,4077.5977653631285,Kendall/MIT,Red Line
+1323,2023,pm_rush,408.2049861495845,North Quincy,Red Line
+1324,2023,pm_rush,3806.1267217630852,Park Street,Red Line
+1325,2023,pm_rush,893.1578947368421,Porter,Red Line
+1326,2023,pm_rush,245.53954802259886,Quincy Adams,Red Line
+1327,2023,pm_rush,508.7486187845304,Quincy Center,Red Line
+1328,2023,pm_rush,161.53932584269663,Savin Hill,Red Line
+1329,2023,pm_rush,151.05898876404495,Shawmut,Red Line
+1330,2023,pm_rush,3797.6145251396647,South Station,Red Line
+1331,2023,pm_rush,197.8393351800554,Wollaston,Red Line
+1332,2014,full_day,6585.274348422497,Airport,Blue Line
+1333,2014,full_day,4596.0041152263375,Aquarium,Blue Line
+1334,2014,full_day,2498.3793103448274,Beachmont,Blue Line
+1335,2014,full_day,1866.9368998628258,Bowdoin,Blue Line
+1336,2014,full_day,7833.65,Government Center,Blue Line
+1337,2014,full_day,8767.844993141289,Maverick,Blue Line
+1338,2014,full_day,3283.0719225449516,Orient Heights,Blue Line
+1339,2014,full_day,2730.2654745529576,Revere Beach,Blue Line
+1340,2014,full_day,12978.684931506848,State Street,Blue Line
+1341,2014,full_day,590.4275862068965,Suffolk Downs,Blue Line
+1342,2014,full_day,5217.934156378601,Wonderland,Blue Line
+1343,2014,full_day,1841.0497925311204,Wood Island,Blue Line
+1344,2014,full_day,6545.401920438958,Arlington,Green Line
+1345,2014,full_day,5676.314128943759,Boylston,Green Line
+1346,2014,full_day,11996.074074074075,Copley,Green Line
+1347,2014,full_day,7862.3836477987425,Government Center,Green Line
+1348,2014,full_day,12026.520547945205,Haymarket,Green Line
+1349,2014,full_day,7849.456790123457,Hynes Convention Center,Green Line
+1350,2014,full_day,8760.462277091907,Kenmore,Green Line
+1351,2014,full_day,5491.645517241379,Lechmere,Green Line
+1352,2014,full_day,13470.876712328767,North Station,Green Line
+1353,2014,full_day,19390.312328767122,Park Street,Green Line
+1354,2014,full_day,3146.411522633745,Prudential,Green Line
+1355,2014,full_day,1958.3786008230452,Riverside,Green Line
+1356,2014,full_day,752.1010248901904,Science Park,Green Line
+1357,2014,full_day,1465.957475994513,Symphony,Green Line
+1358,2014,full_day,1684.0801687763712,Assembly,Orange Line
+1359,2014,full_day,14424.26474622771,Back Bay,Orange Line
+1360,2014,full_day,5734.912208504801,Chinatown,Orange Line
+1361,2014,full_day,3848.5309491059147,Community College,Orange Line
+1362,2014,full_day,18342.252400548696,Downtown Crossing,Orange Line
+1363,2014,full_day,12022.19890260631,Forest Hills,Orange Line
+1364,2014,full_day,2899.9615912208506,Green Street,Orange Line
+1365,2014,full_day,12037.412894375857,Haymarket,Orange Line
+1366,2014,full_day,4958.213991769548,Jackson Square,Orange Line
+1367,2014,full_day,10006.590973201692,Malden Center,Orange Line
+1368,2014,full_day,5521.914951989026,Massachusetts Avenue,Orange Line
+1369,2014,full_day,13485.676268861454,North Station,Orange Line
+1370,2014,full_day,5242.198288159771,Oak Grove,Orange Line
+1371,2014,full_day,3851.8737997256517,Roxbury Crossing,Orange Line
+1372,2014,full_day,8529.80658436214,Ruggles,Orange Line
+1373,2014,full_day,12993.449931412895,State Street,Orange Line
+1374,2014,full_day,3066.5253772290807,Stony Brook,Orange Line
+1375,2014,full_day,8689.042524005486,Sullivan Square,Orange Line
+1376,2014,full_day,5016.876543209876,Tufts Medical Center,Orange Line
+1377,2014,full_day,6377.669503546099,Wellington,Orange Line
+1378,2014,full_day,9184.495159059474,Alewife,Red Line
+1379,2014,full_day,5268.496443812233,Andrew,Red Line
+1380,2014,full_day,7525.513031550068,Ashmont,Red Line
+1381,2014,full_day,4129.486932599725,Braintree,Red Line
+1382,2014,full_day,5024.362589928058,Broadway,Red Line
+1383,2014,full_day,14091.998628257888,Central,Red Line
+1384,2014,full_day,10954.165969316597,Davis,Red Line
+1385,2014,full_day,18324.076712328766,Downtown Crossing,Red Line
+1386,2014,full_day,4416.398620689655,Fields Corner,Red Line
+1387,2014,full_day,20094.80658436214,Harvard,Red Line
+1388,2014,full_day,7002.27600554785,JFK/UMass,Red Line
+1389,2014,full_day,12958.207133058984,Kendall/MIT,Red Line
+1390,2014,full_day,5346.696551724138,North Quincy,Red Line
+1391,2014,full_day,19408.45953360768,Park Street,Red Line
+1392,2014,full_day,7421.11079943899,Porter,Red Line
+1393,2014,full_day,3870.0068587105625,Quincy Adams,Red Line
+1394,2014,full_day,7028.92286115007,Quincy Center,Red Line
+1395,2014,full_day,2049.1865569272977,Savin Hill,Red Line
+1396,2014,full_day,1962.329218106996,Shawmut,Red Line
+1397,2014,full_day,20450.805212620027,South Station,Red Line
+1398,2014,full_day,3645.4609053497943,Wollaston,Red Line
+1399,2015,full_day,6228.14364640884,Airport,Blue Line
+1400,2015,full_day,4411.589531680441,Aquarium,Blue Line
+1401,2015,full_day,2415.413223140496,Beachmont,Blue Line
+1402,2015,full_day,2067.9583333333335,Bowdoin,Blue Line
+1403,2015,full_day,8725.14404432133,Maverick,Blue Line
+1404,2015,full_day,3331.2577030812326,Orient Heights,Blue Line
+1405,2015,full_day,2731.656509695291,Revere Beach,Blue Line
+1406,2015,full_day,13823.936639118458,State Street,Blue Line
+1407,2015,full_day,689.6183844011142,Suffolk Downs,Blue Line
+1408,2015,full_day,4813.591549295775,Wonderland,Blue Line
+1409,2015,full_day,1744.2603878116342,Wood Island,Blue Line
+1410,2015,full_day,6199.531680440771,Arlington,Green Line
+1411,2015,full_day,5163.406077348066,Boylston,Green Line
+1412,2015,full_day,11457.063360881542,Copley,Green Line
+1413,2015,full_day,11744.236263736264,Haymarket,Green Line
+1414,2015,full_day,7199.132596685083,Hynes Convention Center,Green Line
+1415,2015,full_day,8451.947658402203,Kenmore,Green Line
+1416,2015,full_day,5411.46408839779,Lechmere,Green Line
+1417,2015,full_day,13176.371900826447,North Station,Green Line
+1418,2015,full_day,19603.755494505494,Park Street,Green Line
+1419,2015,full_day,2917.146005509642,Prudential,Green Line
+1420,2015,full_day,1986.8808864265927,Riverside,Green Line
+1421,2015,full_day,878.1578947368421,Science Park,Green Line
+1422,2015,full_day,1452.477653631285,Symphony,Green Line
+1423,2015,full_day,2237.1070422535213,Assembly,Orange Line
+1424,2015,full_day,13669.20054945055,Back Bay,Orange Line
+1425,2015,full_day,5241.310249307479,Chinatown,Orange Line
+1426,2015,full_day,3648.1408839779006,Community College,Orange Line
+1427,2015,full_day,19362.271978021978,Downtown Crossing,Orange Line
+1428,2015,full_day,11776.05633802817,Forest Hills,Orange Line
+1429,2015,full_day,2820.8636363636365,Green Street,Orange Line
+1430,2015,full_day,11744.236263736264,Haymarket,Orange Line
+1431,2015,full_day,4875.83988764045,Jackson Square,Orange Line
+1432,2015,full_day,9456.425352112676,Malden Center,Orange Line
+1433,2015,full_day,5338.5,Massachusetts Avenue,Orange Line
+1434,2015,full_day,13176.371900826447,North Station,Orange Line
+1435,2015,full_day,5122.372881355932,Oak Grove,Orange Line
+1436,2015,full_day,3980.08,Roxbury Crossing,Orange Line
+1437,2015,full_day,8591.870523415979,Ruggles,Orange Line
+1438,2015,full_day,13823.936639118458,State Street,Orange Line
+1439,2015,full_day,2896.33704735376,Stony Brook,Orange Line
+1440,2015,full_day,8197.756906077348,Sullivan Square,Orange Line
+1441,2015,full_day,4925.0803324099725,Tufts Medical Center,Orange Line
+1442,2015,full_day,6087.803921568628,Wellington,Orange Line
+1443,2015,full_day,9502.34435261708,Alewife,Red Line
+1444,2015,full_day,5360.366666666667,Andrew,Red Line
+1445,2015,full_day,7661.884615384615,Ashmont,Red Line
+1446,2015,full_day,3895.2011173184355,Braintree,Red Line
+1447,2015,full_day,5363.783933518005,Broadway,Red Line
+1448,2015,full_day,13820.695290858726,Central,Red Line
+1449,2015,full_day,10872.506887052341,Davis,Red Line
+1450,2015,full_day,19362.271978021978,Downtown Crossing,Red Line
+1451,2015,full_day,4511.457300275482,Fields Corner,Red Line
+1452,2015,full_day,18859.947802197803,Harvard,Red Line
+1453,2015,full_day,7014.460451977401,JFK/UMass,Red Line
+1454,2015,full_day,12908.69696969697,Kendall/MIT,Red Line
+1455,2015,full_day,5094.867605633803,North Quincy,Red Line
+1456,2015,full_day,19603.755494505494,Park Street,Red Line
+1457,2015,full_day,7282.642659279778,Porter,Red Line
+1458,2015,full_day,3643.0911602209944,Quincy Adams,Red Line
+1459,2015,full_day,6693.445086705202,Quincy Center,Red Line
+1460,2015,full_day,2052.1916666666666,Savin Hill,Red Line
+1461,2015,full_day,2001.5069252077562,Shawmut,Red Line
+1462,2015,full_day,20435.8044077135,South Station,Red Line
+1463,2015,full_day,3590.281976744186,Wollaston,Red Line
+1464,2016,full_day,6416.456284153005,Airport,Blue Line
+1465,2016,full_day,4684.270491803279,Aquarium,Blue Line
+1466,2016,full_day,2544.584699453552,Beachmont,Blue Line
+1467,2016,full_day,1749.6284153005465,Bowdoin,Blue Line
+1468,2016,full_day,5788.532871972318,Government Center,Blue Line
+1469,2016,full_day,9026.986338797815,Maverick,Blue Line
+1470,2016,full_day,3498.382513661202,Orient Heights,Blue Line
+1471,2016,full_day,2859.7950819672133,Revere Beach,Blue Line
+1472,2016,full_day,12065.43169398907,State Street,Blue Line
+1473,2016,full_day,697.5710382513661,Suffolk Downs,Blue Line
+1474,2016,full_day,5439.606557377049,Wonderland,Blue Line
+1475,2016,full_day,1831.3306010928961,Wood Island,Blue Line
+1476,2016,full_day,6028.043715846995,Arlington,Green Line
+1477,2016,full_day,4967.767759562841,Boylston,Green Line
+1478,2016,full_day,11300.737704918032,Copley,Green Line
+1479,2016,full_day,5788.532871972318,Government Center,Green Line
+1480,2016,full_day,10944.024590163934,Haymarket,Green Line
+1481,2016,full_day,6797.0,Hynes Convention Center,Green Line
+1482,2016,full_day,7606.502732240438,Kenmore,Green Line
+1483,2016,full_day,5124.172131147541,Lechmere,Green Line
+1484,2016,full_day,12737.41873278237,North Station,Green Line
+1485,2016,full_day,16449.508196721312,Park Street,Green Line
+1486,2016,full_day,2942.8661202185795,Prudential,Green Line
+1487,2016,full_day,1922.4590163934427,Riverside,Green Line
+1488,2016,full_day,857.6120218579235,Science Park,Green Line
+1489,2016,full_day,1472.9260273972602,Symphony,Green Line
+1490,2016,full_day,2471.5537190082646,Assembly,Orange Line
+1491,2016,full_day,12946.04109589041,Back Bay,Orange Line
+1492,2016,full_day,5022.568306010929,Chinatown,Orange Line
+1493,2016,full_day,3585.6132596685084,Community College,Orange Line
+1494,2016,full_day,21034.792349726777,Downtown Crossing,Orange Line
+1495,2016,full_day,11359.21546961326,Forest Hills,Orange Line
+1496,2016,full_day,2758.181818181818,Green Street,Orange Line
+1497,2016,full_day,10944.024590163934,Haymarket,Orange Line
+1498,2016,full_day,4818.385041551246,Jackson Square,Orange Line
+1499,2016,full_day,9570.258241758242,Malden Center,Orange Line
+1500,2016,full_day,5183.876033057852,Massachusetts Avenue,Orange Line
+1501,2016,full_day,12737.41873278237,North Station,Orange Line
+1502,2016,full_day,5318.340782122905,Oak Grove,Orange Line
+1503,2016,full_day,3877.9972222222223,Roxbury Crossing,Orange Line
+1504,2016,full_day,8104.583561643835,Ruggles,Orange Line
+1505,2016,full_day,12065.43169398907,State Street,Orange Line
+1506,2016,full_day,2753.0163934426228,Stony Brook,Orange Line
+1507,2016,full_day,7799.1126373626375,Sullivan Square,Orange Line
+1508,2016,full_day,4884.349726775957,Tufts Medical Center,Orange Line
+1509,2016,full_day,5889.512396694215,Wellington,Orange Line
+1510,2016,full_day,9327.78904109589,Alewife,Red Line
+1511,2016,full_day,5151.868852459016,Andrew,Red Line
+1512,2016,full_day,7494.420765027322,Ashmont,Red Line
+1513,2016,full_day,3843.1036414565824,Braintree,Red Line
+1514,2016,full_day,5231.11475409836,Broadway,Red Line
+1515,2016,full_day,12814.267759562841,Central,Red Line
+1516,2016,full_day,10321.09065934066,Davis,Red Line
+1517,2016,full_day,21034.792349726777,Downtown Crossing,Red Line
+1518,2016,full_day,4308.823691460055,Fields Corner,Red Line
+1519,2016,full_day,18694.79508196721,Harvard,Red Line
+1520,2016,full_day,7015.106557377049,JFK/UMass,Red Line
+1521,2016,full_day,12899.008310249308,Kendall/MIT,Red Line
+1522,2016,full_day,5311.325136612022,North Quincy,Red Line
+1523,2016,full_day,16449.508196721312,Park Street,Red Line
+1524,2016,full_day,6851.876373626374,Porter,Red Line
+1525,2016,full_day,3713.0581717451523,Quincy Adams,Red Line
+1526,2016,full_day,6726.5851648351645,Quincy Center,Red Line
+1527,2016,full_day,2028.431693989071,Savin Hill,Red Line
+1528,2016,full_day,2046.6638888888888,Shawmut,Red Line
+1529,2016,full_day,20087.96994535519,South Station,Red Line
+1530,2016,full_day,3618.240997229917,Wollaston,Red Line
+1531,2017,full_day,6399.8493150684935,Airport,Blue Line
+1532,2017,full_day,4677.087671232876,Aquarium,Blue Line
+1533,2017,full_day,2648.9506849315067,Beachmont,Blue Line
+1534,2017,full_day,1619.0505617977528,Bowdoin,Blue Line
+1535,2017,full_day,6236.191780821918,Government Center,Blue Line
+1536,2017,full_day,9143.613698630137,Maverick,Blue Line
+1537,2017,full_day,3554.158904109589,Orient Heights,Blue Line
+1538,2017,full_day,2816.0931506849315,Revere Beach,Blue Line
+1539,2017,full_day,11125.72602739726,State Street,Blue Line
+1540,2017,full_day,512.7307692307693,Suffolk Downs,Blue Line
+1541,2017,full_day,5644.608219178082,Wonderland,Blue Line
+1542,2017,full_day,1878.9397260273972,Wood Island,Blue Line
+1543,2017,full_day,5904.495890410959,Arlington,Green Line
+1544,2017,full_day,5039.679452054795,Boylston,Green Line
+1545,2017,full_day,11135.994520547945,Copley,Green Line
+1546,2017,full_day,6236.191780821918,Government Center,Green Line
+1547,2017,full_day,9982.64109589041,Haymarket,Green Line
+1548,2017,full_day,6703.8,Hynes Convention Center,Green Line
+1549,2017,full_day,7377.12602739726,Kenmore,Green Line
+1550,2017,full_day,4869.567123287671,Lechmere,Green Line
+1551,2017,full_day,12425.26301369863,North Station,Green Line
+1552,2017,full_day,14775.602739726028,Park Street,Green Line
+1553,2017,full_day,3064.254794520548,Prudential,Green Line
+1554,2017,full_day,1837.7382920110192,Riverside,Green Line
+1555,2017,full_day,873.9890410958905,Science Park,Green Line
+1556,2017,full_day,1489.427397260274,Symphony,Green Line
+1557,2017,full_day,2801.9313186813188,Assembly,Orange Line
+1558,2017,full_day,12377.764383561644,Back Bay,Orange Line
+1559,2017,full_day,4940.2520547945205,Chinatown,Orange Line
+1560,2017,full_day,3411.868493150685,Community College,Orange Line
+1561,2017,full_day,20499.227397260274,Downtown Crossing,Orange Line
+1562,2017,full_day,11071.73595505618,Forest Hills,Orange Line
+1563,2017,full_day,2703.9719101123596,Green Street,Orange Line
+1564,2017,full_day,9982.64109589041,Haymarket,Orange Line
+1565,2017,full_day,4651.255617977528,Jackson Square,Orange Line
+1566,2017,full_day,9494.571030640669,Malden Center,Orange Line
+1567,2017,full_day,4899.8980716253445,Massachusetts Avenue,Orange Line
+1568,2017,full_day,12425.26301369863,North Station,Orange Line
+1569,2017,full_day,5420.724431818182,Oak Grove,Orange Line
+1570,2017,full_day,3644.196629213483,Roxbury Crossing,Orange Line
+1571,2017,full_day,7812.276712328767,Ruggles,Orange Line
+1572,2017,full_day,11125.72602739726,State Street,Orange Line
+1573,2017,full_day,2866.206611570248,Stony Brook,Orange Line
+1574,2017,full_day,7508.901369863013,Sullivan Square,Orange Line
+1575,2017,full_day,4836.956164383561,Tufts Medical Center,Orange Line
+1576,2017,full_day,5887.791208791209,Wellington,Orange Line
+1577,2017,full_day,9380.933884297521,Alewife,Red Line
+1578,2017,full_day,5028.186301369863,Andrew,Red Line
+1579,2017,full_day,7290.457534246575,Ashmont,Red Line
+1580,2017,full_day,3853.0,Braintree,Red Line
+1581,2017,full_day,5078.186301369863,Broadway,Red Line
+1582,2017,full_day,12970.208219178083,Central,Red Line
+1583,2017,full_day,10019.013774104684,Davis,Red Line
+1584,2017,full_day,20499.227397260274,Downtown Crossing,Red Line
+1585,2017,full_day,4171.826446280992,Fields Corner,Red Line
+1586,2017,full_day,17658.67671232877,Harvard,Red Line
+1587,2017,full_day,6641.704109589041,JFK/UMass,Red Line
+1588,2017,full_day,13033.597733711049,Kendall/MIT,Red Line
+1589,2017,full_day,5202.1123287671235,North Quincy,Red Line
+1590,2017,full_day,14775.602739726028,Park Street,Red Line
+1591,2017,full_day,6760.077134986226,Porter,Red Line
+1592,2017,full_day,3785.083102493075,Quincy Adams,Red Line
+1593,2017,full_day,6671.768595041322,Quincy Center,Red Line
+1594,2017,full_day,1936.4767123287672,Savin Hill,Red Line
+1595,2017,full_day,1944.467032967033,Shawmut,Red Line
+1596,2017,full_day,19749.476712328767,South Station,Red Line
+1597,2017,full_day,3438.66301369863,Wollaston,Red Line
+1598,2018,full_day,6578.342465753424,Airport,Blue Line
+1599,2018,full_day,4680.8410958904105,Aquarium,Blue Line
+1600,2018,full_day,2594.9972602739726,Beachmont,Blue Line
+1601,2018,full_day,1600.7123287671234,Bowdoin,Blue Line
+1602,2018,full_day,6451.6,Government Center,Blue Line
+1603,2018,full_day,9486.227397260274,Maverick,Blue Line
+1604,2018,full_day,3542.8109589041096,Orient Heights,Blue Line
+1605,2018,full_day,2722.7068493150687,Revere Beach,Blue Line
+1606,2018,full_day,10659.090410958905,State Street,Blue Line
+1607,2018,full_day,387.7479452054794,Suffolk Downs,Blue Line
+1608,2018,full_day,5752.893150684931,Wonderland,Blue Line
+1609,2018,full_day,1815.7561643835616,Wood Island,Blue Line
+1610,2018,full_day,5724.676712328767,Arlington,Green Line
+1611,2018,full_day,5087.295890410959,Boylston,Green Line
+1612,2018,full_day,10850.019178082192,Copley,Green Line
+1613,2018,full_day,6451.6,Government Center,Green Line
+1614,2018,full_day,9721.783561643835,Haymarket,Green Line
+1615,2018,full_day,6471.564383561644,Hynes Convention Center,Green Line
+1616,2018,full_day,7208.367123287671,Kenmore,Green Line
+1617,2018,full_day,4982.405479452054,Lechmere,Green Line
+1618,2018,full_day,12618.967123287672,North Station,Green Line
+1619,2018,full_day,13800.82191780822,Park Street,Green Line
+1620,2018,full_day,3035.821917808219,Prudential,Green Line
+1621,2018,full_day,1674.9861495844875,Riverside,Green Line
+1622,2018,full_day,787.5027624309392,Science Park,Green Line
+1623,2018,full_day,1483.8328767123287,Symphony,Green Line
+1624,2018,full_day,3172.9834710743803,Assembly,Orange Line
+1625,2018,full_day,12544.21095890411,Back Bay,Orange Line
+1626,2018,full_day,5138.81095890411,Chinatown,Orange Line
+1627,2018,full_day,3325.3068493150686,Community College,Orange Line
+1628,2018,full_day,19884.539726027397,Downtown Crossing,Orange Line
+1629,2018,full_day,10569.35838150289,Forest Hills,Orange Line
+1630,2018,full_day,2554.92816091954,Green Street,Orange Line
+1631,2018,full_day,9721.783561643835,Haymarket,Orange Line
+1632,2018,full_day,4657.910364145659,Jackson Square,Orange Line
+1633,2018,full_day,9561.124309392266,Malden Center,Orange Line
+1634,2018,full_day,4702.730555555556,Massachusetts Avenue,Orange Line
+1635,2018,full_day,12618.967123287672,North Station,Orange Line
+1636,2018,full_day,5303.633608815427,Oak Grove,Orange Line
+1637,2018,full_day,3597.8651685393256,Roxbury Crossing,Orange Line
+1638,2018,full_day,7525.445983379502,Ruggles,Orange Line
+1639,2018,full_day,10659.090410958905,State Street,Orange Line
+1640,2018,full_day,2796.2314049586776,Stony Brook,Orange Line
+1641,2018,full_day,7210.775342465753,Sullivan Square,Orange Line
+1642,2018,full_day,4811.682191780822,Tufts Medical Center,Orange Line
+1643,2018,full_day,5846.391184573003,Wellington,Orange Line
+1644,2018,full_day,9121.08493150685,Alewife,Red Line
+1645,2018,full_day,4876.394520547945,Andrew,Red Line
+1646,2018,full_day,7266.972602739726,Ashmont,Red Line
+1647,2018,full_day,3650.566091954023,Braintree,Red Line
+1648,2018,full_day,4850.068493150685,Broadway,Red Line
+1649,2018,full_day,12897.742465753425,Central,Red Line
+1650,2018,full_day,9464.705555555556,Davis,Red Line
+1651,2018,full_day,19884.539726027397,Downtown Crossing,Red Line
+1652,2018,full_day,4132.739726027397,Fields Corner,Red Line
+1653,2018,full_day,16434.652054794522,Harvard,Red Line
+1654,2018,full_day,6375.235616438356,JFK/UMass,Red Line
+1655,2018,full_day,12829.195054945056,Kendall/MIT,Red Line
+1656,2018,full_day,7143.175342465754,North Quincy,Red Line
+1657,2018,full_day,13800.82191780822,Park Street,Red Line
+1658,2018,full_day,6630.523676880222,Porter,Red Line
+1659,2018,full_day,3700.6371191135736,Quincy Adams,Red Line
+1660,2018,full_day,5840.958563535912,Quincy Center,Red Line
+1661,2018,full_day,1855.86301369863,Savin Hill,Red Line
+1662,2018,full_day,1880.6219178082192,Shawmut,Red Line
+1663,2018,full_day,19309.449315068494,South Station,Red Line
+1664,2018,full_day,1640.142857142857,Wollaston,Red Line
+1665,2019,full_day,6801.435616438356,Airport,Blue Line
+1666,2019,full_day,4559.917808219178,Aquarium,Blue Line
+1667,2019,full_day,2753.947658402204,Beachmont,Blue Line
+1668,2019,full_day,1722.3780821917808,Bowdoin,Blue Line
+1669,2019,full_day,6476.623626373626,Government Center,Blue Line
+1670,2019,full_day,9916.66301369863,Maverick,Blue Line
+1671,2019,full_day,3859.617079889807,Orient Heights,Blue Line
+1672,2019,full_day,2778.845730027548,Revere Beach,Blue Line
+1673,2019,full_day,10450.701369863014,State Street,Blue Line
+1674,2019,full_day,591.4889502762431,Suffolk Downs,Blue Line
+1675,2019,full_day,5766.539944903581,Wonderland,Blue Line
+1676,2019,full_day,1767.8076923076924,Wood Island,Blue Line
+1677,2019,full_day,5652.147945205479,Arlington,Green Line
+1678,2019,full_day,4805.695890410959,Boylston,Green Line
+1679,2019,full_day,10644.130681818182,Copley,Green Line
+1680,2019,full_day,6476.623626373626,Government Center,Green Line
+1681,2019,full_day,9111.011173184357,Haymarket,Green Line
+1682,2019,full_day,6383.906849315069,Hynes Convention Center,Green Line
+1683,2019,full_day,6994.712328767123,Kenmore,Green Line
+1684,2019,full_day,4814.183561643836,Lechmere,Green Line
+1685,2019,full_day,13536.068493150686,North Station,Green Line
+1686,2019,full_day,14331.671232876712,Park Street,Green Line
+1687,2019,full_day,2942.33698630137,Prudential,Green Line
+1688,2019,full_day,1505.0828729281768,Riverside,Green Line
+1689,2019,full_day,731.4862637362637,Science Park,Green Line
+1690,2019,full_day,1539.0493150684931,Symphony,Green Line
+1691,2019,full_day,3762.529745042493,Assembly,Orange Line
+1692,2019,full_day,12823.617563739377,Back Bay,Orange Line
+1693,2019,full_day,4935.381215469613,Chinatown,Orange Line
+1694,2019,full_day,3152.6528925619837,Community College,Orange Line
+1695,2019,full_day,19459.37777777778,Downtown Crossing,Orange Line
+1696,2019,full_day,10445.086206896553,Forest Hills,Orange Line
+1697,2019,full_day,2539.398843930636,Green Street,Orange Line
+1698,2019,full_day,9111.011173184357,Haymarket,Orange Line
+1699,2019,full_day,4490.628985507246,Jackson Square,Orange Line
+1700,2019,full_day,9467.57223796034,Malden Center,Orange Line
+1701,2019,full_day,4769.096590909091,Massachusetts Avenue,Orange Line
+1702,2019,full_day,13536.068493150686,North Station,Orange Line
+1703,2019,full_day,5300.1473087818695,Oak Grove,Orange Line
+1704,2019,full_day,3741.457725947522,Roxbury Crossing,Orange Line
+1705,2019,full_day,7658.960451977401,Ruggles,Orange Line
+1706,2019,full_day,10450.701369863014,State Street,Orange Line
+1707,2019,full_day,2846.130311614731,Stony Brook,Orange Line
+1708,2019,full_day,6979.770538243626,Sullivan Square,Orange Line
+1709,2019,full_day,4944.161473087819,Tufts Medical Center,Orange Line
+1710,2019,full_day,6214.135593220339,Wellington,Orange Line
+1711,2019,full_day,9218.312676056337,Alewife,Red Line
+1712,2019,full_day,4654.943820224719,Andrew,Red Line
+1713,2019,full_day,7027.075418994414,Ashmont,Red Line
+1714,2019,full_day,3571.1932773109243,Braintree,Red Line
+1715,2019,full_day,4844.238095238095,Broadway,Red Line
+1716,2019,full_day,12861.684357541899,Central,Red Line
+1717,2019,full_day,9634.805157593124,Davis,Red Line
+1718,2019,full_day,19459.37777777778,Downtown Crossing,Red Line
+1719,2019,full_day,4100.403361344538,Fields Corner,Red Line
+1720,2019,full_day,15788.950276243095,Harvard,Red Line
+1721,2019,full_day,6361.622905027933,JFK/UMass,Red Line
+1722,2019,full_day,13338.591036414566,Kendall/MIT,Red Line
+1723,2019,full_day,5985.258426966292,North Quincy,Red Line
+1724,2019,full_day,14331.671232876712,Park Street,Red Line
+1725,2019,full_day,6870.924855491329,Porter,Red Line
+1726,2019,full_day,3316.4362606232294,Quincy Adams,Red Line
+1727,2019,full_day,5758.422969187675,Quincy Center,Red Line
+1728,2019,full_day,1805.8991596638655,Savin Hill,Red Line
+1729,2019,full_day,1776.0532212885155,Shawmut,Red Line
+1730,2019,full_day,19388.766016713093,South Station,Red Line
+1731,2019,full_day,2779.1615384615384,Wollaston,Red Line
+1732,2020,full_day,2968.2079772079774,Airport,Blue Line
+1733,2020,full_day,1546.4957264957266,Aquarium,Blue Line
+1734,2020,full_day,1395.0229885057472,Beachmont,Blue Line
+1735,2020,full_day,843.5698005698006,Bowdoin,Blue Line
+1736,2020,full_day,1974.4153005464482,Government Center,Blue Line
+1737,2020,full_day,4706.087818696884,Maverick,Blue Line
+1738,2020,full_day,1809.9914040114613,Orient Heights,Blue Line
+1739,2020,full_day,1476.1379310344828,Revere Beach,Blue Line
+1740,2020,full_day,3673.9180327868853,State Street,Blue Line
+1741,2020,full_day,324.478386167147,Suffolk Downs,Blue Line
+1742,2020,full_day,2469.5129682997117,Wonderland,Blue Line
+1743,2020,full_day,806.4217877094972,Wood Island,Blue Line
+1744,2020,full_day,1594.5945205479452,Arlington,Green Line
+1745,2020,full_day,1579.5628415300546,Boylston,Green Line
+1746,2020,full_day,3169.2303370786517,Copley,Green Line
+1747,2020,full_day,1974.4153005464482,Government Center,Green Line
+1748,2020,full_day,3508.935754189944,Haymarket,Green Line
+1749,2020,full_day,1960.8743169398906,Hynes Convention Center,Green Line
+1750,2020,full_day,1959.6256830601094,Kenmore,Green Line
+1751,2020,full_day,2429.3611111111113,Lechmere,Green Line
+1752,2020,full_day,4743.505464480874,North Station,Green Line
+1753,2020,full_day,4201.106557377049,Park Street,Green Line
+1754,2020,full_day,938.2295081967213,Prudential,Green Line
+1755,2020,full_day,382.875,Riverside,Green Line
+1756,2020,full_day,269.00704225352115,Science Park,Green Line
+1757,2020,full_day,539.7307692307693,Symphony,Green Line
+1758,2020,full_day,1211.870786516854,Assembly,Orange Line
+1759,2020,full_day,3998.7430167597763,Back Bay,Orange Line
+1760,2020,full_day,1636.426997245179,Chinatown,Orange Line
+1761,2020,full_day,1041.171270718232,Community College,Orange Line
+1762,2020,full_day,6296.521857923497,Downtown Crossing,Orange Line
+1763,2020,full_day,4180.0812324929975,Forest Hills,Orange Line
+1764,2020,full_day,796.8511235955057,Green Street,Orange Line
+1765,2020,full_day,3508.935754189944,Haymarket,Orange Line
+1766,2020,full_day,1948.5826330532213,Jackson Square,Orange Line
+1767,2020,full_day,3341.087323943662,Malden Center,Orange Line
+1768,2020,full_day,1886.5308988764045,Massachusetts Avenue,Orange Line
+1769,2020,full_day,4743.505464480874,North Station,Orange Line
+1770,2020,full_day,1659.183606557377,Oak Grove,Orange Line
+1771,2020,full_day,1331.688202247191,Roxbury Crossing,Orange Line
+1772,2020,full_day,2863.923943661972,Ruggles,Orange Line
+1773,2020,full_day,3673.9180327868853,State Street,Orange Line
+1774,2020,full_day,941.9466292134831,Stony Brook,Orange Line
+1775,2020,full_day,2919.494382022472,Sullivan Square,Orange Line
+1776,2020,full_day,1984.1568627450981,Tufts Medical Center,Orange Line
+1777,2020,full_day,2162.697222222222,Wellington,Orange Line
+1778,2020,full_day,2529.93698630137,Alewife,Red Line
+1779,2020,full_day,2129.863387978142,Andrew,Red Line
+1780,2020,full_day,3111.7622950819673,Ashmont,Red Line
+1781,2020,full_day,1230.0985915492959,Braintree,Red Line
+1782,2020,full_day,1806.6939890710382,Broadway,Red Line
+1783,2020,full_day,4290.9890710382515,Central,Red Line
+1784,2020,full_day,2789.826330532213,Davis,Red Line
+1785,2020,full_day,6296.521857923497,Downtown Crossing,Red Line
+1786,2020,full_day,1929.1967213114754,Fields Corner,Red Line
+1787,2020,full_day,4618.450819672131,Harvard,Red Line
+1788,2020,full_day,2089.054644808743,JFK/UMass,Red Line
+1789,2020,full_day,3532.4863387978144,Kendall/MIT,Red Line
+1790,2020,full_day,1570.2267759562842,North Quincy,Red Line
+1791,2020,full_day,4201.106557377049,Park Street,Red Line
+1792,2020,full_day,2036.0453257790368,Porter,Red Line
+1793,2020,full_day,984.9,Quincy Adams,Red Line
+1794,2020,full_day,2452.210382513661,Quincy Center,Red Line
+1795,2020,full_day,740.4153005464481,Savin Hill,Red Line
+1796,2020,full_day,731.7945205479452,Shawmut,Red Line
+1797,2020,full_day,5549.882513661202,South Station,Red Line
+1798,2020,full_day,1056.8142076502731,Wollaston,Red Line
+1799,2021,full_day,3735.432876712329,Airport,Blue Line
+1800,2021,full_day,2031.6931506849314,Aquarium,Blue Line
+1801,2021,full_day,1589.6876712328767,Beachmont,Blue Line
+1802,2021,full_day,938.3131868131868,Bowdoin,Blue Line
+1803,2021,full_day,2174.8027397260275,Government Center,Blue Line
+1804,2021,full_day,5512.095890410959,Maverick,Blue Line
+1805,2021,full_day,2017.3698630136987,Orient Heights,Blue Line
+1806,2021,full_day,1662.1698630136987,Revere Beach,Blue Line
+1807,2021,full_day,3736.567123287671,State Street,Blue Line
+1808,2021,full_day,269.6164383561644,Suffolk Downs,Blue Line
+1809,2021,full_day,2605.454794520548,Wonderland,Blue Line
+1810,2021,full_day,964.7041095890411,Wood Island,Blue Line
+1811,2021,full_day,1782.9369863013699,Arlington,Green Line
+1812,2021,full_day,2085.33698630137,Boylston,Green Line
+1813,2021,full_day,4333.002739726027,Copley,Green Line
+1814,2021,full_day,2174.8027397260275,Government Center,Green Line
+1815,2021,full_day,4489.213698630137,Haymarket,Green Line
+1816,2021,full_day,2855.0383561643835,Hynes Convention Center,Green Line
+1817,2021,full_day,3453.2849315068493,Kenmore,Green Line
+1818,2021,full_day,5463.2,North Station,Green Line
+1819,2021,full_day,4671.257534246575,Park Street,Green Line
+1820,2021,full_day,1286.1835616438357,Prudential,Green Line
+1821,2021,full_day,400.6815642458101,Riverside,Green Line
+1822,2021,full_day,624.9175824175824,Symphony,Green Line
+1823,2021,full_day,1355.3431085043987,Assembly,Orange Line
+1824,2021,full_day,3935.594520547945,Back Bay,Orange Line
+1825,2021,full_day,1931.345205479452,Chinatown,Orange Line
+1826,2021,full_day,1035.1342465753426,Community College,Orange Line
+1827,2021,full_day,6620.8328767123285,Downtown Crossing,Orange Line
+1828,2021,full_day,4315.493150684932,Forest Hills,Orange Line
+1829,2021,full_day,865.9111111111112,Green Street,Orange Line
+1830,2021,full_day,4489.213698630137,Haymarket,Orange Line
+1831,2021,full_day,2128.1153846153848,Jackson Square,Orange Line
+1832,2021,full_day,3417.144117647059,Malden Center,Orange Line
+1833,2021,full_day,2173.857534246575,Massachusetts Avenue,Orange Line
+1834,2021,full_day,5463.2,North Station,Orange Line
+1835,2021,full_day,1446.202985074627,Oak Grove,Orange Line
+1836,2021,full_day,1634.8181818181818,Roxbury Crossing,Orange Line
+1837,2021,full_day,3084.2575342465752,Ruggles,Orange Line
+1838,2021,full_day,3736.567123287671,State Street,Orange Line
+1839,2021,full_day,1037.9041095890411,Stony Brook,Orange Line
+1840,2021,full_day,3678.956164383562,Sullivan Square,Orange Line
+1841,2021,full_day,2227.876712328767,Tufts Medical Center,Orange Line
+1842,2021,full_day,1814.6224783861671,Wellington,Orange Line
+1843,2021,full_day,2686.4752747252746,Alewife,Red Line
+1844,2021,full_day,2410.83286908078,Andrew,Red Line
+1845,2021,full_day,3287.543956043956,Ashmont,Red Line
+1846,2021,full_day,1264.1123287671232,Braintree,Red Line
+1847,2021,full_day,2055.5441595441594,Broadway,Red Line
+1848,2021,full_day,5022.3369863013695,Central,Red Line
+1849,2021,full_day,3176.4712328767123,Davis,Red Line
+1850,2021,full_day,6620.8328767123285,Downtown Crossing,Red Line
+1851,2021,full_day,2111.7355371900826,Fields Corner,Red Line
+1852,2021,full_day,5515.898630136986,Harvard,Red Line
+1853,2021,full_day,2367.4297520661157,JFK/UMass,Red Line
+1854,2021,full_day,3612.2657534246578,Kendall/MIT,Red Line
+1855,2021,full_day,1574.2986301369863,North Quincy,Red Line
+1856,2021,full_day,4671.257534246575,Park Street,Red Line
+1857,2021,full_day,2344.468319559229,Porter,Red Line
+1858,2021,full_day,965.8301369863013,Quincy Adams,Red Line
+1859,2021,full_day,2457.5150684931505,Quincy Center,Red Line
+1860,2021,full_day,815.4547945205479,Savin Hill,Red Line
+1861,2021,full_day,818.1873278236915,Shawmut,Red Line
+1862,2021,full_day,5147.852054794521,South Station,Red Line
+1863,2021,full_day,1203.8876712328768,Wollaston,Red Line
+1864,2022,full_day,4805.87397260274,Airport,Blue Line
+1865,2022,full_day,2411.4488636363635,Aquarium,Blue Line
+1866,2022,full_day,2017.2902298850574,Beachmont,Blue Line
+1867,2022,full_day,1150.6028985507246,Bowdoin,Blue Line
+1868,2022,full_day,4029.466275659824,Government Center,Blue Line
+1869,2022,full_day,6657.21186440678,Maverick,Blue Line
+1870,2022,full_day,2851.413698630137,Orient Heights,Blue Line
+1871,2022,full_day,2031.8419540229886,Revere Beach,Blue Line
+1872,2022,full_day,5138.372602739726,State Street,Blue Line
+1873,2022,full_day,268.21037463976944,Suffolk Downs,Blue Line
+1874,2022,full_day,2714.434659090909,Wonderland,Blue Line
+1875,2022,full_day,1193.7637362637363,Wood Island,Blue Line
+1876,2022,full_day,2790.882191780822,Arlington,Green Line
+1877,2022,full_day,3233.2356164383564,Boylston,Green Line
+1878,2022,full_day,6957.1625344352615,Copley,Green Line
+1879,2022,full_day,4029.466275659824,Government Center,Green Line
+1880,2022,full_day,4517.287671232877,Haymarket,Green Line
+1881,2022,full_day,4387.087671232876,Hynes Convention Center,Green Line
+1882,2022,full_day,4595.3369863013695,Kenmore,Green Line
+1883,2022,full_day,1532.0891472868218,Lechmere,Green Line
+1884,2022,full_day,7733.755882352942,North Station,Green Line
+1885,2022,full_day,7255.969863013699,Park Street,Green Line
+1886,2022,full_day,1901.3418079096045,Prudential,Green Line
+1887,2022,full_day,681.9020172910663,Riverside,Green Line
+1888,2022,full_day,446.16974169741695,Science Park,Green Line
+1889,2022,full_day,928.3850574712644,Symphony,Green Line
+1890,2022,full_day,1960.5545977011495,Assembly,Orange Line
+1891,2022,full_day,5045.053977272727,Back Bay,Orange Line
+1892,2022,full_day,2370.8121387283236,Chinatown,Orange Line
+1893,2022,full_day,1451.3313609467455,Community College,Orange Line
+1894,2022,full_day,8139.290410958904,Downtown Crossing,Orange Line
+1895,2022,full_day,5160.419354838709,Forest Hills,Orange Line
+1896,2022,full_day,1234.2719298245613,Green Street,Orange Line
+1897,2022,full_day,4517.287671232877,Haymarket,Orange Line
+1898,2022,full_day,2279.8275862068967,Jackson Square,Orange Line
+1899,2022,full_day,4107.340845070423,Malden Center,Orange Line
+1900,2022,full_day,2339.2228571428573,Massachusetts Avenue,Orange Line
+1901,2022,full_day,7733.755882352942,North Station,Orange Line
+1902,2022,full_day,2236.415430267062,Oak Grove,Orange Line
+1903,2022,full_day,2005.8775510204082,Roxbury Crossing,Orange Line
+1904,2022,full_day,3809.7640449438204,Ruggles,Orange Line
+1905,2022,full_day,5138.372602739726,State Street,Orange Line
+1906,2022,full_day,1349.5,Stony Brook,Orange Line
+1907,2022,full_day,3748.772334293948,Sullivan Square,Orange Line
+1908,2022,full_day,2684.098214285714,Tufts Medical Center,Orange Line
+1909,2022,full_day,2541.4529914529912,Wellington,Orange Line
+1910,2022,full_day,3931.371900826446,Alewife,Red Line
+1911,2022,full_day,2895.9586776859505,Andrew,Red Line
+1912,2022,full_day,3804.564383561644,Ashmont,Red Line
+1913,2022,full_day,1846.7438016528927,Braintree,Red Line
+1914,2022,full_day,2842.8394366197185,Broadway,Red Line
+1915,2022,full_day,6794.423076923077,Central,Red Line
+1916,2022,full_day,4369.7242339832865,Davis,Red Line
+1917,2022,full_day,8139.290410958904,Downtown Crossing,Red Line
+1918,2022,full_day,2449.5789473684213,Fields Corner,Red Line
+1919,2022,full_day,8415.626373626374,Harvard,Red Line
+1920,2022,full_day,3547.8777777777777,JFK/UMass,Red Line
+1921,2022,full_day,5981.8370165745855,Kendall/MIT,Red Line
+1922,2022,full_day,2287.523287671233,North Quincy,Red Line
+1923,2022,full_day,7255.969863013699,Park Street,Red Line
+1924,2022,full_day,3388.150417827298,Porter,Red Line
+1925,2022,full_day,1338.6897506925209,Quincy Adams,Red Line
+1926,2022,full_day,3013.408219178082,Quincy Center,Red Line
+1927,2022,full_day,936.6527777777778,Savin Hill,Red Line
+1928,2022,full_day,1005.585635359116,Shawmut,Red Line
+1929,2022,full_day,8436.635616438356,South Station,Red Line
+1930,2022,full_day,1376.8650137741047,Wollaston,Red Line
+1931,2023,full_day,6206.106849315069,Airport,Blue Line
+1932,2023,full_day,3185.194520547945,Aquarium,Blue Line
+1933,2023,full_day,2428.884931506849,Beachmont,Blue Line
+1934,2023,full_day,1432.2465753424658,Bowdoin,Blue Line
+1935,2023,full_day,4815.173020527859,Government Center,Blue Line
+1936,2023,full_day,7972.1671232876715,Maverick,Blue Line
+1937,2023,full_day,3106.878787878788,Orient Heights,Blue Line
+1938,2023,full_day,2538.8712328767124,Revere Beach,Blue Line
+1939,2023,full_day,6575.3835616438355,State Street,Blue Line
+1940,2023,full_day,520.2219178082191,Suffolk Downs,Blue Line
+1941,2023,full_day,3893.8739726027397,Wonderland,Blue Line
+1942,2023,full_day,1433.1205479452055,Wood Island,Blue Line
+1943,2023,full_day,3094.8567415730336,Arlington,Green Line
+1944,2023,full_day,3429.78,Boylston,Green Line
+1945,2023,full_day,7002.817415730337,Copley,Green Line
+1946,2023,full_day,4815.173020527859,Government Center,Green Line
+1947,2023,full_day,4239.6194968553455,Haymarket,Green Line
+1948,2023,full_day,4726.861971830986,Hynes Convention Center,Green Line
+1949,2023,full_day,4299.966292134832,Kenmore,Green Line
+1950,2023,full_day,1354.9116022099447,Lechmere,Green Line
+1951,2023,full_day,8317.345609065156,North Station,Green Line
+1952,2023,full_day,7531.190082644628,Park Street,Green Line
+1953,2023,full_day,2018.6555555555556,Prudential,Green Line
+1954,2023,full_day,792.9390581717452,Riverside,Green Line
+1955,2023,full_day,591.6288088642659,Science Park,Green Line
+1956,2023,full_day,905.6179775280899,Symphony,Green Line
+1957,2023,full_day,2324.435616438356,Assembly,Orange Line
+1958,2023,full_day,6009.461111111111,Back Bay,Orange Line
+1959,2023,full_day,2711.7205479452055,Chinatown,Orange Line
+1960,2023,full_day,1751.7534246575342,Community College,Orange Line
+1961,2023,full_day,8758.857534246576,Downtown Crossing,Orange Line
+1962,2023,full_day,5152.26301369863,Forest Hills,Orange Line
+1963,2023,full_day,1416.386301369863,Green Street,Orange Line
+1964,2023,full_day,4239.6194968553455,Haymarket,Orange Line
+1965,2023,full_day,2310.0986301369862,Jackson Square,Orange Line
+1966,2023,full_day,4475.284530386741,Malden Center,Orange Line
+1967,2023,full_day,2529.596153846154,Massachusetts Avenue,Orange Line
+1968,2023,full_day,8317.345609065156,North Station,Orange Line
+1969,2023,full_day,2738.4,Oak Grove,Orange Line
+1970,2023,full_day,2170.4849315068495,Roxbury Crossing,Orange Line
+1971,2023,full_day,3565.035714285714,Ruggles,Orange Line
+1972,2023,full_day,6575.3835616438355,State Street,Orange Line
+1973,2023,full_day,1639.054794520548,Stony Brook,Orange Line
+1974,2023,full_day,3602.504132231405,Sullivan Square,Orange Line
+1975,2023,full_day,2873.3933518005542,Tufts Medical Center,Orange Line
+1976,2023,full_day,2625.2087912087914,Wellington,Orange Line
+1977,2023,full_day,3743.477848101266,Alewife,Red Line
+1978,2023,full_day,2742.191011235955,Andrew,Red Line
+1979,2023,full_day,3235.186629526462,Ashmont,Red Line
+1980,2023,full_day,1442.086455331412,Braintree,Red Line
+1981,2023,full_day,2766.637142857143,Broadway,Red Line
+1982,2023,full_day,6006.8493150684935,Central,Red Line
+1983,2023,full_day,3720.4847645429363,Davis,Red Line
+1984,2023,full_day,8758.857534246576,Downtown Crossing,Red Line
+1985,2023,full_day,2083.5205882352943,Fields Corner,Red Line
+1986,2023,full_day,8294.191135734072,Harvard,Red Line
+1987,2023,full_day,3367.805797101449,JFK/UMass,Red Line
+1988,2023,full_day,6823.516759776537,Kendall/MIT,Red Line
+1989,2023,full_day,2011.5346260387812,North Quincy,Red Line
+1990,2023,full_day,7531.190082644628,Park Street,Red Line
+1991,2023,full_day,3325.02216066482,Porter,Red Line
+1992,2023,full_day,1154.8276836158193,Quincy Adams,Red Line
+1993,2023,full_day,2327.704419889503,Quincy Center,Red Line
+1994,2023,full_day,733.0505617977528,Savin Hill,Red Line
+1995,2023,full_day,911.8651685393259,Shawmut,Red Line
+1996,2023,full_day,8974.18156424581,South Station,Red Line
+1997,2023,full_day,1372.246537396122,Wollaston,Red Line
