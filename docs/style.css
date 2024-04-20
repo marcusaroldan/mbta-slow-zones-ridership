@@ -21,10 +21,9 @@ h4 {
 
 img {
     height: 600px;
-    border: 2px solid black;
     margin-top: 10px;
     margin-bottom: 10px;
-    transform: translate(50%, 0%)
+    padding-left: 450px;
 }
 
 .outside_section {
@@ -102,7 +101,6 @@ main {
 #data {
     border-color: #ed8b00ff;
     padding-bottom: 12px;
-    margin-bottom: 100px;
 }
 
 #data::before {
@@ -190,7 +188,7 @@ main {
     border: 0px;
     margin-top: 10px;
     margin-bottom: 10px;
-    transform: translate(0%, 0%)
+    padding-left: 0px;
 }
 
 #stacked_area {
@@ -198,5 +196,12 @@ main {
     border: 0px;
     margin-top: 10px;
     margin-bottom: 10px;
-    transform: translate(0%, 0%)
+    padding-left: 0px;
+
+}
+
+#reference {
+    border-color: #da291cff;
+    border-bottom: 0px;
+    padding-bottom: 20px;
 }
